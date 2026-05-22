@@ -1,0 +1,2007 @@
+{
+  "categories": [
+    {
+      "id": "greetings",
+      "name": "Greetings & Phrases",
+      "icon": "👋",
+      "cards": [
+        {
+          "polish": "cześć",
+          "phonetic": "CHESHCH",
+          "english": "hi / hello (informal)",
+          "example_polish": "Cześć! Jak się masz?",
+          "example_english": "Hi! How are you?",
+          "connection": "English: honest, honor — Polish cześć means both 'hello' and 'honor/respect', the same idea of greeting someone with dignity"
+        },
+        {
+          "polish": "dzień dobry",
+          "phonetic": "JYEN DOB-rih",
+          "english": "good morning / good day",
+          "example_polish": "Dzień dobry, pani Kowalska!",
+          "example_english": "Good morning, Mrs. Kowalska!",
+          "connection": "Hindi: din (दिन) · Sanskrit: dina — both dzień and din trace to PIE *dyew- (sky, daylight); the 'day' in 'good day'"
+        },
+        {
+          "polish": "dobranoc",
+          "phonetic": "dob-RAH-nots",
+          "english": "good night",
+          "example_polish": "Dobranoc, śpij dobrze!",
+          "example_english": "Good night, sleep well!",
+          "connection": "Latin: nox · English: nocturnal · Sanskrit: nakta — all from PIE *nókʷts (night); dobra-noc = good-night"
+        },
+        {
+          "polish": "do widzenia",
+          "phonetic": "do vee-DZEN-yah",
+          "english": "goodbye (formal)",
+          "example_polish": "Do widzenia, do jutra!",
+          "example_english": "Goodbye, see you tomorrow!",
+          "connection": "Sanskrit: Veda (वेद) · Hindi: dekhna (देखना) — widzenia comes from widzieć (to see), from PIE *weid- (to see/know); the Veda is literally 'what is seen/known'"
+        },
+        {
+          "polish": "dziękuję",
+          "phonetic": "jyen-KOO-yeh",
+          "english": "thank you",
+          "example_polish": "Dziękuję bardzo za pomoc.",
+          "example_english": "Thank you very much for the help.",
+          "connection": "English: think, thank — dziękuję shares the root with German danken and English thank; all from PIE *tong- (to think/feel)"
+        },
+        {
+          "polish": "proszę",
+          "phonetic": "PROH-sheh",
+          "english": "please / you're welcome",
+          "example_polish": "Proszę, usiądź.",
+          "example_english": "Please, sit down.",
+          "connection": "Sanskrit: pracch (प्रच्छ्) · Hindi: poochhna (पूछना) — both from PIE *prek- (to ask/request); proszę = 'I ask/request'"
+        },
+        {
+          "polish": "przepraszam",
+          "phonetic": "psheh-PRAH-shahm",
+          "english": "sorry / excuse me",
+          "example_polish": "Przepraszam, gdzie jest toaleta?",
+          "example_english": "Excuse me, where is the toilet?",
+          "connection": "English: ask — the root praszam (I ask pardon) shares PIE *prek- with English ask, Sanskrit pracch"
+        },
+        {
+          "polish": "tak",
+          "phonetic": "tahk",
+          "english": "yes",
+          "example_polish": "Tak, rozumiem.",
+          "example_english": "Yes, I understand.",
+          "connection": "Hindi: toh (तो) — tak and toh both function as discourse affirmatives in their languages; cousins in spirit if not in etymology"
+        },
+        {
+          "polish": "nie",
+          "phonetic": "nyeh",
+          "english": "no / not",
+          "example_polish": "Nie, dziękuję.",
+          "example_english": "No, thank you.",
+          "connection": "Sanskrit: na (न) · Hindi: na/nahi (न/नहीं) · English: no — all from PIE *ne (negation); one of the oldest and most universal words"
+        },
+        {
+          "polish": "może",
+          "phonetic": "MOH-zheh",
+          "english": "maybe / perhaps",
+          "example_polish": "Może jutro przyjdę.",
+          "example_english": "Maybe I'll come tomorrow.",
+          "connection": "English: may, might — może comes from móc (to be able), all tracing to PIE *magh- (power/ability)"
+        },
+        {
+          "polish": "dobrze",
+          "phonetic": "DOB-zheh",
+          "english": "well / fine / okay",
+          "example_polish": "Czuję się dobrze.",
+          "example_english": "I feel well.",
+          "connection": "English: deft — dobry (good) and English deft both trace to PIE *dʰo-bʰro- (fitting, suitable)"
+        },
+        {
+          "polish": "rozumiem",
+          "phonetic": "roh-ZOOM-yem",
+          "english": "I understand",
+          "example_polish": "Rozumiem po polsku trochę.",
+          "example_english": "I understand a little Polish.",
+          "connection": "English: wise, wisdom — the root -um- (mind/reason) connects to PIE *h₂ewm- underlying concepts of mind and understanding"
+        },
+        {
+          "polish": "pomoc",
+          "phonetic": "POH-mots",
+          "english": "help",
+          "example_polish": "Potrzebuję pomocy!",
+          "example_english": "I need help!",
+          "connection": "English: might, power — pomoc comes from móc (to be able), the power to assist; shares PIE *magh- with English might"
+        },
+        {
+          "polish": "witaj",
+          "phonetic": "VEE-tye",
+          "english": "welcome / greetings",
+          "example_polish": "Witaj w Polsce!",
+          "example_english": "Welcome to Poland!",
+          "connection": "Latin: vita (life) · English: vital, vivid — witaj from *żywić (to live); greeting someone by wishing them life"
+        },
+        {
+          "polish": "przepraszam bardzo",
+          "phonetic": "psheh-PRAH-shahm BAR-dzoh",
+          "english": "I'm very sorry",
+          "example_polish": "Przepraszam bardzo, spóźniłem się.",
+          "example_english": "I'm very sorry, I'm late.",
+          "connection": "English: ask, bardic — bar in bardzo (very) may relate to PIE *bʰer- (to carry), carrying something to the maximum"
+        },
+        {
+          "polish": "jak się masz?",
+          "phonetic": "yahk sheh mahsh",
+          "english": "how are you?",
+          "example_polish": "Cześć! Jak się masz?",
+          "example_english": "Hi! How are you?",
+          "connection": "Sanskrit: yoga (योग) · English: yoke — jak (how) traces to PIE *yug- (to join/link); yoga, yoke, and jak all ask 'by what connection?'"
+        },
+        {
+          "polish": "do zobaczenia",
+          "phonetic": "do zo-bah-CHEN-yah",
+          "english": "see you later",
+          "example_polish": "Do zobaczenia w piątek!",
+          "example_english": "See you on Friday!",
+          "connection": "Sanskrit: Veda (वेद) — zobaczenia from zobaczyć (to see), same PIE *weid- root as Veda and English vision; 'until we see each other again'"
+        },
+        {
+          "polish": "proszę bardzo",
+          "phonetic": "PROH-sheh BAR-dzoh",
+          "english": "you're very welcome",
+          "example_polish": "— Dziękuję! — Proszę bardzo.",
+          "example_english": "— Thank you! — You're very welcome.",
+          "connection": "Sanskrit: pracch · Hindi: poochhna — proszę from PIE *prek- (to ask); 'I ask you to accept my welcome'"
+        },
+        {
+          "polish": "nie ma za co",
+          "phonetic": "nyeh mah zah tso",
+          "english": "don't mention it / no problem",
+          "example_polish": "— Dziękuję za pomoc. — Nie ma za co!",
+          "example_english": "— Thanks for the help. — Don't mention it!",
+          "connection": "Sanskrit: na (न) — nie (not) from universal PIE *ne negation; literally 'there is nothing for which'"
+        },
+        {
+          "polish": "słucham",
+          "phonetic": "SWOO-kham",
+          "english": "I'm listening / hello (answering phone)",
+          "example_polish": "Słucham? Kto mówi?",
+          "example_english": "Hello? Who's speaking?",
+          "connection": "Sanskrit: shru (श्रु) · Hindi: sunna (सुनना) — słucham from PIE *ḱlew- (to hear); Sanskrit śravana (hearing), Konkani aikunk, all from same root"
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "name": "Numbers",
+      "icon": "🔢",
+      "cards": [
+        {
+          "polish": "jeden",
+          "phonetic": "YEH-den",
+          "english": "one",
+          "example_polish": "Mam jedną siostrę.",
+          "example_english": "I have one sister.",
+          "connection": "English: one, an, any — jeden from PIE *óinos; English one, Latin unus, Greek oinos all from the same root"
+        },
+        {
+          "polish": "dwa",
+          "phonetic": "dvah",
+          "english": "two",
+          "example_polish": "Mam dwa psy.",
+          "example_english": "I have two dogs.",
+          "connection": "Sanskrit: dvi (द्वि) · Hindi: do (दो) · Marathi: don (दोन) — from PIE *dwóh₁; dwa, do, dvi, two — all unmistakably the same ancient word"
+        },
+        {
+          "polish": "trzy",
+          "phonetic": "tshih",
+          "english": "three",
+          "example_polish": "Mam trzy koty.",
+          "example_english": "I have three cats.",
+          "connection": "Sanskrit: tri (त्रि) · Hindi: tīn (तीन) · Marathi: tīn (तीन) — from PIE *tréyes; Polish trzy, Hindi tīn, English three, Latin tres — same word across 4000 years"
+        },
+        {
+          "polish": "cztery",
+          "phonetic": "CHTE-rih",
+          "english": "four",
+          "example_polish": "Są cztery pory roku.",
+          "example_english": "There are four seasons.",
+          "connection": "Sanskrit: catvāri (चत्वारि) · Hindi: cār (चार) · Marathi: cār (चार) — from PIE *kʷetwóres; cztery, cār, four, quattro — all the same PIE word"
+        },
+        {
+          "polish": "pięć",
+          "phonetic": "pyench",
+          "english": "five",
+          "example_polish": "Mam pięć palców.",
+          "example_english": "I have five fingers.",
+          "connection": "Sanskrit: pañca (पञ्च) · Hindi: pāñc (पाँच) · Marathi: pāc (पाच) — from PIE *pénkʷe; pięć, pāñc, five, penta — all descend from the same root"
+        },
+        {
+          "polish": "sześć",
+          "phonetic": "sheshch",
+          "english": "six",
+          "example_polish": "Mam sześć książek.",
+          "example_english": "I have six books.",
+          "connection": "Sanskrit: ṣaṭ (षट्) · Hindi: chaḥ (छः) · English: six — from PIE *swéḱs; the sound shifted but the number is the same ancient word"
+        },
+        {
+          "polish": "siedem",
+          "phonetic": "SHYE-dem",
+          "english": "seven",
+          "example_polish": "Jest siedem dni w tygodniu.",
+          "example_english": "There are seven days in a week.",
+          "connection": "Sanskrit: sapta (सप्त) · Hindi: sāt (सात) · English: seven — from PIE *septḿ̥; siedem, sāt, seven, sept — the sacred number shared across all IE languages"
+        },
+        {
+          "polish": "osiem",
+          "phonetic": "OH-shyem",
+          "english": "eight",
+          "example_polish": "Pracuję osiem godzin.",
+          "example_english": "I work eight hours.",
+          "connection": "Sanskrit: aṣṭa (अष्ट) · Hindi: āṭh (आठ) · Marathi: āṭh (आठ) — from PIE *oḱtō(w); osiem, āṭh, eight, octo — all the same ancient word"
+        },
+        {
+          "polish": "dziewięć",
+          "phonetic": "JYE-vyench",
+          "english": "nine",
+          "example_polish": "Kot ma dziewięć żyć.",
+          "example_english": "A cat has nine lives.",
+          "connection": "Sanskrit: nava (नव) · Hindi: nau (नौ) · English: nine — from PIE *h₁néwn̥; dziewięć, nau, nine, novem — all cousins from the same PIE root"
+        },
+        {
+          "polish": "dziesięć",
+          "phonetic": "JYE-shench",
+          "english": "ten",
+          "example_polish": "Liczę do dziesięciu.",
+          "example_english": "I count to ten.",
+          "connection": "Sanskrit: daśa (दश) · Hindi: das (दस) · Marathi: daha (दहा) — from PIE *déḱmt; dziesięć, das, ten, dasa — one of the clearest PIE connections in the whole deck"
+        },
+        {
+          "polish": "sto",
+          "phonetic": "stoh",
+          "english": "hundred",
+          "example_polish": "On ma sto lat!",
+          "example_english": "He is a hundred years old!",
+          "connection": "Sanskrit: śata (शत) · Hindi: sau (सौ) · Marathi: śambhar — from PIE *ḱm̥tóm; sto, sau, hundred, cent — the same ancient hundred"
+        },
+        {
+          "polish": "tysiąc",
+          "phonetic": "TIH-shonts",
+          "english": "thousand",
+          "example_polish": "Warszawa ma milion mieszkańców.",
+          "example_english": "Warsaw has a million inhabitants.",
+          "connection": "English: thousand — both from Proto-Germanic/Proto-IE roots meaning 'strong hundred'; the concept of a great multitude"
+        },
+        {
+          "polish": "zero",
+          "phonetic": "ZEH-roh",
+          "english": "zero",
+          "example_polish": "Temperatura wynosi zero stopni.",
+          "example_english": "The temperature is zero degrees.",
+          "connection": "Hindi: śūnya (शून्य) · Arabic: ṣifr — zero reached European languages via Arabic ṣifr → Italian zefiro; the concept of mathematical zero came from India through the Arab world"
+        }
+      ]
+    },
+    {
+      "id": "colors",
+      "name": "Colors",
+      "icon": "🎨",
+      "cards": [
+        {
+          "polish": "czerwony",
+          "phonetic": "cher-VOH-nih",
+          "english": "red",
+          "example_polish": "Mam czerwony samochód.",
+          "example_english": "I have a red car.",
+          "connection": "Sanskrit: kṛmi (कृमि) · English: crimson, worm — czerwony comes from czerw (worm); crimson dye came from a scale insect; Sanskrit kṛmi means worm/insect. Crimson, czerwony, and kṛmi all share this 'worm-dye' origin"
+        },
+        {
+          "polish": "biały",
+          "phonetic": "BYAH-wih",
+          "english": "white",
+          "example_polish": "Śnieg jest biały.",
+          "example_english": "Snow is white.",
+          "connection": "English: blaze, bleach — biały from PIE *bʰleyH- (to shine/gleam); the whiteness of shining light"
+        },
+        {
+          "polish": "czarny",
+          "phonetic": "CHAR-nih",
+          "english": "black",
+          "example_polish": "Mam czarnego kota.",
+          "example_english": "I have a black cat.",
+          "connection": "English: char (charcoal) — czarny relates to burning/charring; English char (to burn black) shares the concept of blackness through burning"
+        },
+        {
+          "polish": "niebieski",
+          "phonetic": "nyeh-BYES-kee",
+          "english": "blue",
+          "example_polish": "Niebo jest niebieski.",
+          "example_english": "The sky is blue.",
+          "connection": "Sanskrit: nabhas (नभस्) · Hindi: nabh (नभ) — niebieski literally means 'sky-colored'; niebo (sky) from PIE *nébʰos; English nebula (cloud) shares this root"
+        },
+        {
+          "polish": "zielony",
+          "phonetic": "zye-LOH-nih",
+          "english": "green",
+          "example_polish": "Trawa jest zielona.",
+          "example_english": "The grass is green.",
+          "connection": "Sanskrit: hari (हरि) · English: yellow, gold — zielony from PIE *ǵʰelH- (to shine/gleam yellow-green); Sanskrit hari means green/yellow/golden; Vishnu's epithet Hari relates to this shining color"
+        },
+        {
+          "polish": "żółty",
+          "phonetic": "ZHOO-wtih",
+          "english": "yellow",
+          "example_polish": "Słońce jest żółte.",
+          "example_english": "The sun is yellow.",
+          "connection": "Sanskrit: hari (हरि) · English: yellow, gold — same PIE *ǵʰelH- root as green above; the ancient color word covered the gold-green spectrum"
+        },
+        {
+          "polish": "pomarańczowy",
+          "phonetic": "po-mah-RAHN-choh-vih",
+          "english": "orange",
+          "example_polish": "Lubię pomarańczowy sok.",
+          "example_english": "I like orange juice.",
+          "connection": "Sanskrit: nāraṅga (नारङ्ग) · Hindi: nāraṅgī (नारंगी) — the word orange traveled from Sanskrit nāraṅga → Persian nārang → Arabic nāranj → European languages; Polish and Hindi both inherited the same Sanskrit word!"
+        },
+        {
+          "polish": "fioletowy",
+          "phonetic": "fyoh-leh-TOH-vih",
+          "english": "purple / violet",
+          "example_polish": "Lubię fioletowe kwiaty.",
+          "example_english": "I like purple flowers.",
+          "connection": "English: violet — both from Latin viola (the violet flower); the color named after the flower across European languages"
+        },
+        {
+          "polish": "różowy",
+          "phonetic": "ROO-zhoh-vih",
+          "english": "pink",
+          "example_polish": "Mam różową koszulę.",
+          "example_english": "I have a pink shirt.",
+          "connection": "Hindi: gulāb (गुलाब) · English: rose — różowy from róża (rose); gulāb = gul (rose, Persian) + āb (water); all named after the rose flower"
+        },
+        {
+          "polish": "brązowy",
+          "phonetic": "BROHN-zoh-vih",
+          "english": "brown",
+          "example_polish": "Mam brązowe oczy.",
+          "example_english": "I have brown eyes.",
+          "connection": "English: brown, bronze — both from the same root via Italian bronzo; the color of bronze metal became the color word"
+        },
+        {
+          "polish": "szary",
+          "phonetic": "SHAH-rih",
+          "english": "grey",
+          "example_polish": "Kot jest szary.",
+          "example_english": "The cat is grey.",
+          "connection": "English: grey/gray — both Polish szary and English grey trace back to Proto-Germanic *grēwaz (grey); cousins via different Slavic/Germanic paths"
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "name": "Family",
+      "icon": "👨‍👩‍👧‍👦",
+      "cards": [
+        {
+          "polish": "matka",
+          "phonetic": "MAHT-kah",
+          "english": "mother",
+          "example_polish": "Moja matka jest lekarzem.",
+          "example_english": "My mother is a doctor.",
+          "connection": "Sanskrit: mātā (माता) · Hindi: māta/mā (माँ) · Marathi: māi (माई) · Konkani: māy — all from PIE *méh₂tēr; this is one of the oldest words in human language, unchanged for 6000 years"
+        },
+        {
+          "polish": "ojciec",
+          "phonetic": "OY-chyets",
+          "english": "father",
+          "example_polish": "Mój ojciec pracuje w Warszawie.",
+          "example_english": "My father works in Warsaw.",
+          "connection": "Sanskrit: pitā (पिता) · Hindi: pitājī (पिताजी) · Marathi: bābā — from PIE *ph₂tēr; Polish ojciec evolved from the same root as Latin pater, Sanskrit pitā, English father"
+        },
+        {
+          "polish": "brat",
+          "phonetic": "braht",
+          "english": "brother",
+          "example_polish": "Mój brat ma trzy lata.",
+          "example_english": "My brother is three years old.",
+          "connection": "Sanskrit: bhrātā (भ्राता) · Marathi: bhrātā · English: brother — from PIE *bʰréh₂tēr; brat, bhrātā, brother — almost unchanged across thousands of years and thousands of miles"
+        },
+        {
+          "polish": "siostra",
+          "phonetic": "SYOH-strah",
+          "english": "sister",
+          "example_polish": "Moja siostra mieszka w Krakowie.",
+          "example_english": "My sister lives in Kraków.",
+          "connection": "Sanskrit: svasā (स्वसा) · English: sister — from PIE *swésōr; siostra and sister are direct cognates; Sanskrit svasā is the same ancient word"
+        },
+        {
+          "polish": "syn",
+          "phonetic": "sihn",
+          "english": "son",
+          "example_polish": "Mój syn ma pięć lat.",
+          "example_english": "My son is five years old.",
+          "connection": "Sanskrit: sūnu (सूनु) — from PIE *suHnús; Polish syn and Sanskrit sūnu are direct cognates; the 'sun' of the family"
+        },
+        {
+          "polish": "córka",
+          "phonetic": "TSOOR-kah",
+          "english": "daughter",
+          "example_polish": "Moja córka jest studentką.",
+          "example_english": "My daughter is a student.",
+          "connection": "Sanskrit: duhitā (दुहिता) · English: daughter — from PIE *dʰugH₂tēr; Polish córka evolved from the same root via Proto-Slavic; Sanskrit duhitā literally 'the milker' (who milked the cows)"
+        },
+        {
+          "polish": "dziadek",
+          "phonetic": "JYAH-dek",
+          "english": "grandfather",
+          "example_polish": "Mój dziadek ma osiemdziesiąt lat.",
+          "example_english": "My grandfather is eighty years old.",
+          "connection": "Hindi: dādā (दादा) · Marathi: āājobā — the syllable *dada/tata for elder male is a near-universal human sound, found in dozens of unrelated languages including Hindi dādā"
+        },
+        {
+          "polish": "babcia",
+          "phonetic": "BAHB-chah",
+          "english": "grandmother",
+          "example_polish": "Babcia gotuje pyszną zupę.",
+          "example_english": "Grandmother cooks delicious soup.",
+          "connection": "Hindi: bābā (बाबा) · Sanskrit: bābā — the syllable baba/babcia for elder appears across Indo-European; Hindi bābī/dādī and Polish babcia share this universal nursing-sound origin"
+        },
+        {
+          "polish": "żona",
+          "phonetic": "ZHOH-nah",
+          "english": "wife",
+          "example_polish": "Moja żona jest nauczycielką.",
+          "example_english": "My wife is a teacher.",
+          "connection": "English: queen, gynecology · Sanskrit: jāni (जनि) — from PIE *gʷén- (woman); English queen and Greek gynē (woman) are relatives; Polish żona means 'wife/woman' from the same root"
+        },
+        {
+          "polish": "mąż",
+          "phonetic": "monzh",
+          "english": "husband",
+          "example_polish": "Mój mąż jest inżynierem.",
+          "example_english": "My husband is an engineer.",
+          "connection": "Sanskrit: manu (मनु) · Hindi: mard (manliness) — from PIE *mánu- (human/man); Manu in Hindu mythology is the first human; English man shares this root"
+        },
+        {
+          "polish": "dziecko",
+          "phonetic": "JYETS-koh",
+          "english": "child",
+          "example_polish": "To dziecko jest bardzo grzeczne.",
+          "example_english": "This child is very well-behaved.",
+          "connection": "English: child — Polish dziecko and English child both emphasize the young/tender quality; PIE root relating to birth and nurturing"
+        },
+        {
+          "polish": "rodzina",
+          "phonetic": "roh-DZEE-nah",
+          "english": "family",
+          "example_polish": "Moja rodzina jest duża.",
+          "example_english": "My family is big.",
+          "connection": "English: kin, kind — rodzina from rodzić (to give birth); English kin and kind relate to birth/nature; all from PIE *ǵenh₁- (to give birth/become)"
+        },
+        {
+          "polish": "wujek",
+          "phonetic": "VOO-yek",
+          "english": "uncle",
+          "example_polish": "Mój wujek mieszka w Gdańsku.",
+          "example_english": "My uncle lives in Gdańsk.",
+          "connection": "Latin: avus (grandfather) — wujek traces to the concept of elder male relative; Latin avus (grandfather) gave English uncle via avunculus"
+        },
+        {
+          "polish": "ciocia",
+          "phonetic": "CHOH-chah",
+          "english": "aunt",
+          "example_polish": "Ciocia Ania przyszła w odwiedziny.",
+          "example_english": "Aunt Ania came to visit.",
+          "connection": "Marathi: māusī (मावशी) — the nurturing sound pattern of ciocia/mama/baba recurs across many unrelated languages as a natural early-childhood sound"
+        },
+        {
+          "polish": "kuzyn",
+          "phonetic": "KOO-zihn",
+          "english": "cousin",
+          "example_polish": "Mój kuzyn mieszka w Ameryce.",
+          "example_english": "My cousin lives in America.",
+          "connection": "French: cousin · Latin: consobrinus — English cousin and Polish kuzyn both borrowed from French, ultimately from Latin; a reminder of how French spread through European courts"
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "name": "Body Parts",
+      "icon": "🫀",
+      "cards": [
+        {
+          "polish": "głowa",
+          "phonetic": "GWOH-vah",
+          "english": "head",
+          "example_polish": "Boli mnie głowa.",
+          "example_english": "My head hurts.",
+          "connection": "English: globe, ball — głowa from PIE *gʰelH-bʰ- (round/ball shape); the head as the round ball atop the body"
+        },
+        {
+          "polish": "oko",
+          "phonetic": "OH-koh",
+          "english": "eye",
+          "example_polish": "Mam niebieskie oczy.",
+          "example_english": "I have blue eyes.",
+          "connection": "Sanskrit: akṣi (अक्षि) · Hindi: ākh (आँख) — from PIE *h₃ekʷ- (to see); Polish oko and Hindi ākh are both descendants; English ocular and Latin oculus share this root"
+        },
+        {
+          "polish": "ucho",
+          "phonetic": "OO-khoh",
+          "english": "ear",
+          "example_polish": "Mam ból ucha.",
+          "example_english": "I have an earache.",
+          "connection": "Latin: auris · English: ear, aural — from PIE *h₂ews- (to hear); Polish ucho, Latin auris, English ear all from the same root"
+        },
+        {
+          "polish": "nos",
+          "phonetic": "nohs",
+          "english": "nose",
+          "example_polish": "Mój nos jest zimny.",
+          "example_english": "My nose is cold.",
+          "connection": "Sanskrit: nāsā (नासा) · Hindi: nāk (नाक) — from PIE *néh₂s-; Polish nos and Hindi nāk are cognates; NASA (the space agency) borrowed this root for its nostril-like rocket nozzle"
+        },
+        {
+          "polish": "usta",
+          "phonetic": "OO-stah",
+          "english": "mouth",
+          "example_polish": "Otwórz usta, proszę.",
+          "example_english": "Open your mouth, please.",
+          "connection": "Sanskrit: āsya (आस्य) · Latin: os/oris (mouth) — from PIE *h₂ews-; the opening of the face; English oral shares the Latin branch of this root"
+        },
+        {
+          "polish": "ząb",
+          "phonetic": "zomb",
+          "english": "tooth",
+          "example_polish": "Boli mnie ząb.",
+          "example_english": "My tooth hurts.",
+          "connection": "Sanskrit: danta (दन्त) · Hindi: dānt (दाँत) · Marathi: dāt (दात) — from PIE *h₃dónts; ząb, dānt, tooth, dental — all from the same ancient root; Sanskrit danta gives us English dental"
+        },
+        {
+          "polish": "język",
+          "phonetic": "YEN-zihk",
+          "english": "tongue / language",
+          "example_polish": "Uczę się języka polskiego.",
+          "example_english": "I'm learning the Polish language.",
+          "connection": "English: tongue, language — from PIE *dn̥ǵʰwéh₂s; Latin lingua (tongue/language), English tongue; the same word means both the organ and language in Polish and many IE languages"
+        },
+        {
+          "polish": "szyja",
+          "phonetic": "SHIH-yah",
+          "english": "neck",
+          "example_polish": "Boli mnie szyja.",
+          "example_english": "My neck hurts.",
+          "connection": "English: sew, suture — szyja relates to the 'seam' between head and body; PIE root *syū- (to sew/join)"
+        },
+        {
+          "polish": "ramię",
+          "phonetic": "RAH-myeh",
+          "english": "arm / shoulder",
+          "example_polish": "Złamałem ramię.",
+          "example_english": "I broke my arm.",
+          "connection": "English: arm · Latin: armus (shoulder) — from PIE *h₂r-mo-; Polish ramię, English arm, Latin armus all from the same root; armour was named for the arm it protected"
+        },
+        {
+          "polish": "ręka",
+          "phonetic": "REN-kah",
+          "english": "hand",
+          "example_polish": "Podaj mi rękę.",
+          "example_english": "Give me your hand.",
+          "connection": "Sanskrit: aṅka (अंक) · Hindi: aṅk — from PIE *h₃enk- (bend of arm/lap); Sanskrit aṅka means the bend/lap of the arm; related to English anchor (the bent shape)"
+        },
+        {
+          "polish": "noga",
+          "phonetic": "NOH-gah",
+          "english": "leg / foot",
+          "example_polish": "Boli mnie noga.",
+          "example_english": "My leg hurts.",
+          "connection": "English: nail (fingernail/toenail) — from PIE *nógh- (claw/nail/extremity); the leg as the clawed extremity; English nail and Polish noga share this ancient root"
+        },
+        {
+          "polish": "serce",
+          "phonetic": "SER-tseh",
+          "english": "heart",
+          "example_polish": "Serce bije szybko.",
+          "example_english": "The heart beats fast.",
+          "connection": "Sanskrit: hṛdaya (हृदय) · Marathi: hṛday — from PIE *ḱḗr; serce, hṛdaya, heart, cardiac — all the same ancient word; Greek kardia (cardiac) is also a cousin"
+        },
+        {
+          "polish": "twarz",
+          "phonetic": "tvahzh",
+          "english": "face",
+          "example_polish": "Umyj twarz.",
+          "example_english": "Wash your face.",
+          "connection": "Sanskrit: dvāra (द्वार) · Hindi: darvāzā — twarz from tworzyć (to create/form); dvāra means door/gateway; the face as the 'doorway' of the person"
+        },
+        {
+          "polish": "włosy",
+          "phonetic": "VWOH-sih",
+          "english": "hair",
+          "example_polish": "Mam długie włosy.",
+          "example_english": "I have long hair.",
+          "connection": "English: wool, velvet — from PIE *wĺ̥H- (fleece/fiber); English wool and Polish włosy share the concept of fine fiber; both from the same PIE root"
+        },
+        {
+          "polish": "krew",
+          "phonetic": "krev",
+          "english": "blood",
+          "example_polish": "Mam grupę krwi A.",
+          "example_english": "I have blood type A.",
+          "connection": "Sanskrit: kravya (क्रव्य) · English: raw, crude — from PIE *krewh₂-; krew, kravya (raw flesh), English raw and crude all relate to the concept of living/raw matter"
+        },
+        {
+          "polish": "skóra",
+          "phonetic": "SKOO-rah",
+          "english": "skin / leather",
+          "example_polish": "Mam wrażliwą skórę.",
+          "example_english": "I have sensitive skin.",
+          "connection": "Sanskrit: carman (चर्मन्) · English: shear, score — from PIE *sker- (to cut/divide); skin as what you cut/separate; English score (cut marks) and scar share this root"
+        },
+        {
+          "polish": "brzuch",
+          "phonetic": "bzhookh",
+          "english": "stomach / belly",
+          "example_polish": "Boli mnie brzuch.",
+          "example_english": "My stomach hurts.",
+          "connection": "English: burgeon — brzuch from PIE *bʰer- (to carry/swell); the belly as the swelling carrier; English burgeon (to swell/grow) shares this root"
+        },
+        {
+          "polish": "plecy",
+          "phonetic": "PLEH-tsih",
+          "english": "back",
+          "example_polish": "Boli mnie plecy.",
+          "example_english": "My back hurts.",
+          "connection": "English: flat, floor — plecy from PIE *pleh₂- (flat/spread out); the back as the flat surface of the body"
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "name": "Food & Drink",
+      "icon": "🍽️",
+      "cards": [
+        {
+          "polish": "chleb",
+          "phonetic": "khlep",
+          "english": "bread",
+          "example_polish": "Proszę o chleb.",
+          "example_english": "Please give me some bread.",
+          "connection": "English: loaf · German: Laib — chleb from Proto-Germanic *hlaibaz; English loaf and German Leib share this root; bread as the universal staff of life"
+        },
+        {
+          "polish": "woda",
+          "phonetic": "VOH-dah",
+          "english": "water",
+          "example_polish": "Poproszę szklankę wody.",
+          "example_english": "I'll have a glass of water, please.",
+          "connection": "Sanskrit: udán (उदन्) · English: water, wet — from PIE *wódr̥; Sanskrit udān, English water, Polish woda — all from the same root; Marathi pāṇī evolved differently"
+        },
+        {
+          "polish": "mleko",
+          "phonetic": "MLEH-koh",
+          "english": "milk",
+          "example_polish": "Piję mleko codziennie.",
+          "example_english": "I drink milk every day.",
+          "connection": "English: milk, emulsion — from PIE *H₂melǵ- (to milk/squeeze); Polish mleko and English milk are cognates via different IE branches"
+        },
+        {
+          "polish": "jajko",
+          "phonetic": "YAHY-koh",
+          "english": "egg",
+          "example_polish": "Chcę jajko sadzone.",
+          "example_english": "I want a fried egg.",
+          "connection": "Latin: ovum · English: ovum, oval — from PIE *h₂ōwyom; the rounded egg shape gave us oval, ovum; Polish jajko through a different Slavic path"
+        },
+        {
+          "polish": "mięso",
+          "phonetic": "MYEN-soh",
+          "english": "meat",
+          "example_polish": "Nie jem mięsa.",
+          "example_english": "I don't eat meat.",
+          "connection": "English: meat — in old English, meat meant any food; both Polish mięso and English meat trace to the concept of substantial nourishment"
+        },
+        {
+          "polish": "ryba",
+          "phonetic": "RIH-bah",
+          "english": "fish",
+          "example_polish": "Lubię jeść rybę.",
+          "example_english": "I like eating fish.",
+          "connection": "English: ruff (a type of fish) — ryba is a Slavic word; interestingly English river comes from PIE *reyH- (to flow), and fish are the river-dwellers"
+        },
+        {
+          "polish": "zupa",
+          "phonetic": "ZOO-pah",
+          "english": "soup",
+          "example_polish": "Zupa jest gorąca.",
+          "example_english": "The soup is hot.",
+          "connection": "English: soup · Hindi: shorba — zupa via German Suppe, all from Germanic root meaning liquid food; English sup (to eat supper) shares this root"
+        },
+        {
+          "polish": "herbata",
+          "phonetic": "her-BAH-tah",
+          "english": "tea",
+          "example_polish": "Czy chcesz herbatę?",
+          "example_english": "Do you want tea?",
+          "connection": "Latin: herba · English: herb — herbata = herba thea (tea herb) in Latin; English herb and herbal share this root; Polish tea is literally 'the tea herb'"
+        },
+        {
+          "polish": "kawa",
+          "phonetic": "KAH-vah",
+          "english": "coffee",
+          "example_polish": "Piję kawę rano.",
+          "example_english": "I drink coffee in the morning.",
+          "connection": "Hindi: kahvā (क़हवा) · Arabic: qahwa — kawa directly from Arabic qahwa via Turkish kahve; Hindi kahvā is the same word; coffee united Poland and India through the Arab world"
+        },
+        {
+          "polish": "piwo",
+          "phonetic": "PEE-voh",
+          "english": "beer",
+          "example_polish": "Chcę zimne piwo.",
+          "example_english": "I want a cold beer.",
+          "connection": "Sanskrit: pā (पा) · Hindi: pīnā (पीना) — piwo from pić (to drink), both from PIE *peh₃- (to drink); piwo is literally 'the drinkable'; Hindi pīnā (to drink) shares the same ancient root"
+        },
+        {
+          "polish": "wino",
+          "phonetic": "VEE-noh",
+          "english": "wine",
+          "example_polish": "Lubię czerwone wino.",
+          "example_english": "I like red wine.",
+          "connection": "Hindi: vain/sharab · English: wine · Latin: vinum — wino from Latin vinum, a Mediterranean loanword into all European languages; wine culture spread with the Roman empire"
+        },
+        {
+          "polish": "cukier",
+          "phonetic": "TSOO-kyer",
+          "english": "sugar",
+          "example_polish": "Czy możesz podać cukier?",
+          "example_english": "Can you pass the sugar?",
+          "connection": "Sanskrit: śarkarā (शर्करा) · Hindi: śakkar (शक्कर) — the word traveled: Sanskrit śarkarā → Arabic sukkar → Italian zucchero → Polish cukier; Polish and Hindi both inherited the same Sanskrit word for sugar!"
+        },
+        {
+          "polish": "sól",
+          "phonetic": "sool",
+          "english": "salt",
+          "example_polish": "Poproszę o sól.",
+          "example_english": "Please pass the salt.",
+          "connection": "Latin: sal · English: salt, salary — from PIE *séh₂ls; Roman soldiers were paid in salt (sal), giving us salary; Polish sól and English salt are PIE cousins"
+        },
+        {
+          "polish": "miód",
+          "phonetic": "myoot",
+          "english": "honey",
+          "example_polish": "Lubię herbatę z miodem.",
+          "example_english": "I like tea with honey.",
+          "connection": "Sanskrit: madhu (मधु) · Marathi: madhu · Hindi: madhu — from PIE *médʰu; miód and madhu are one of the strongest connections in the deck; Sanskrit madhu means both honey and sweet; mead (honey wine) also comes from this root"
+        },
+        {
+          "polish": "masło",
+          "phonetic": "MAHS-woh",
+          "english": "butter",
+          "example_polish": "Proszę chleb z masłem.",
+          "example_english": "Bread with butter, please.",
+          "connection": "Sanskrit: medas (मेदस्) — masło from mazać (to smear); Sanskrit medas means fat/marrow; both relate to the greasy/spreadable quality"
+        },
+        {
+          "polish": "ser",
+          "phonetic": "ser",
+          "english": "cheese",
+          "example_polish": "Czy masz żółty ser?",
+          "example_english": "Do you have yellow cheese?",
+          "connection": "English: serum — from PIE *srew- (to flow); ser and serum both come from the watery whey that separates when making cheese; cheese is literally what remains after the serum flows away"
+        },
+        {
+          "polish": "mąka",
+          "phonetic": "MOHN-kah",
+          "english": "flour",
+          "example_polish": "Do ciasta potrzebuję mąki.",
+          "example_english": "I need flour for the cake.",
+          "connection": "English: mill, meal — from PIE *melh₂- (to grind); Polish mąka, English meal (ground grain), and mill all from the grinding root; the millstone gave us our daily bread"
+        },
+        {
+          "polish": "ryż",
+          "phonetic": "rihzh",
+          "english": "rice",
+          "example_polish": "Jem ryż z warzywami.",
+          "example_english": "I eat rice with vegetables.",
+          "connection": "Sanskrit: vrīhi (व्रीहि) · Hindi: cāwal — a remarkable journey: Sanskrit vrīhi → Dravidian → Greek óruza → Latin oryza → Italian riso → Polish ryż; the grain traveled with the trade routes"
+        },
+        {
+          "polish": "ziemniaki",
+          "phonetic": "zyem-NYAH-kee",
+          "english": "potatoes",
+          "example_polish": "Lubię ziemniaki z masłem.",
+          "example_english": "I like potatoes with butter.",
+          "connection": "French: pomme de terre (apple of the earth) — ziemniaki = ziemia (earth) + jabłko (apple) = earth-apple; same as French pomme de terre; Polish and French independently called the potato 'earth-apple'"
+        },
+        {
+          "polish": "pomidor",
+          "phonetic": "poh-MEE-dor",
+          "english": "tomato",
+          "example_polish": "Lubię sałatkę z pomidorem.",
+          "example_english": "I like salad with tomato.",
+          "connection": "Hindi: ṭamāṭar · Italian: pomodoro — pomidor from Italian pomodoro (golden apple = pomo d'oro); the tomato was thought to be golden when first brought to Europe"
+        },
+        {
+          "polish": "cebula",
+          "phonetic": "tseh-BOO-lah",
+          "english": "onion",
+          "example_polish": "Cebula sprawia, że płaczę.",
+          "example_english": "Onion makes me cry.",
+          "connection": "Latin: caepulla · English: chive — cebula from Latin caepula (small onion); English chive is also a cousin from the same Latin root"
+        },
+        {
+          "polish": "czosnek",
+          "phonetic": "CHOH-snek",
+          "english": "garlic",
+          "example_polish": "Lubię jedzenie z czosnkiem.",
+          "example_english": "I like food with garlic.",
+          "connection": "English: clove (of garlic) — czosnek is Slavic; the word garlic itself is Anglo-Saxon 'spear-leek'; garlic wards off vampires in both Polish and Indian folklore"
+        },
+        {
+          "polish": "jabłko",
+          "phonetic": "YAHB-wkoh",
+          "english": "apple",
+          "example_polish": "Czy masz jabłko?",
+          "example_english": "Do you have an apple?",
+          "connection": "English: apple — from PIE *h₂ébōl; Polish jabłko and English apple are cousins from the same root; one of the oldest fruit words in European languages"
+        },
+        {
+          "polish": "banan",
+          "phonetic": "BAH-nahn",
+          "english": "banana",
+          "example_polish": "Zjadłem banana na śniadanie.",
+          "example_english": "I ate a banana for breakfast.",
+          "connection": "Hindi: kelā (केला) · Marathi: kelā — banana entered European languages from West African via Portuguese; Hindi kelā is from a different route; a fruit that traveled the world"
+        },
+        {
+          "polish": "pomarańcza",
+          "phonetic": "po-mah-RAHN-chah",
+          "english": "orange (fruit)",
+          "example_polish": "Zjedz pomarańczę.",
+          "example_english": "Eat an orange.",
+          "connection": "Sanskrit: nāraṅga (नारङ्ग) · Hindi: nāraṅgī — same as the color word; both pomarańcza and Hindi nāraṅgī trace directly back to Sanskrit nāraṅga; this fruit's name is one of the clearest India-Poland connections"
+        },
+        {
+          "polish": "marchew",
+          "phonetic": "MAR-khev",
+          "english": "carrot",
+          "example_polish": "Marchew jest dobra dla oczu.",
+          "example_english": "Carrot is good for the eyes.",
+          "connection": "Greek: karōton · English: carrot — both marchew and English carrot come from Greek karōton, possibly related to PIE *ker- (horn — the horn-shaped root)"
+        },
+        {
+          "polish": "orzech",
+          "phonetic": "OH-zhekh",
+          "english": "nut / walnut",
+          "example_polish": "Lubię orzechy.",
+          "example_english": "I like nuts.",
+          "connection": "English: acorn — from PIE *ker- (hard shell); English acorn (oak-corn = oak-nut) and Latin nux (nut) relate to the same concept of the hard-shelled seed"
+        },
+        {
+          "polish": "olej",
+          "phonetic": "OH-ley",
+          "english": "oil",
+          "example_polish": "Proszę olej z oliwek.",
+          "example_english": "Olive oil, please.",
+          "connection": "Greek: elaion · English: oil — olej from Latin oleum from Greek elaion (olive oil); English oil, Latin oliva (olive), all from Greek; the olive gave the world its word for oil"
+        },
+        {
+          "polish": "ocet",
+          "phonetic": "OH-tset",
+          "english": "vinegar",
+          "example_polish": "Dodaj trochę octu.",
+          "example_english": "Add a little vinegar.",
+          "connection": "Latin: acetum · English: acid, acetic — from PIE *h₂eḱ- (sharp/pointed); ocet, English acid, and acetic acid all come from the concept of sharpness/sourness"
+        },
+        {
+          "polish": "grzyb",
+          "phonetic": "gzhihp",
+          "english": "mushroom",
+          "example_polish": "W lesie rosną grzyby.",
+          "example_english": "Mushrooms grow in the forest.",
+          "connection": "English: grab, grip — grzyb from PIE *gʰrebʰ- (to grab/seize); mushrooms 'grip' the earth; Poles are passionate mushroom foragers — it's a national tradition"
+        }
+      ]
+    },
+    {
+      "id": "animals",
+      "name": "Animals",
+      "icon": "🐾",
+      "cards": [
+        {
+          "polish": "pies",
+          "phonetic": "pyes",
+          "english": "dog",
+          "example_polish": "Mój pies nazywa się Burek.",
+          "example_english": "My dog's name is Burek.",
+          "connection": "Sanskrit: śvan (श्वन्) · English: hound — pies from Slavic psъ; Sanskrit śvan (dog) and English hound both from PIE *ḱwon- (dog); Polish took a different Slavic word but the concept is universal"
+        },
+        {
+          "polish": "kot",
+          "phonetic": "koht",
+          "english": "cat",
+          "example_polish": "Kot śpi na łóżku.",
+          "example_english": "The cat sleeps on the bed.",
+          "connection": "Hindi: billī (बिल्ली) — kot from Late Latin cattus; the word cat spread globally from the same source; English cat and Polish kot are direct cognates via Latin"
+        },
+        {
+          "polish": "koń",
+          "phonetic": "kohn",
+          "english": "horse",
+          "example_polish": "Koń jest dużym zwierzęciem.",
+          "example_english": "The horse is a large animal.",
+          "connection": "Sanskrit: aśva (अश्व) · Latin: equus · English: equine — koń is from a different Slavic root, but aśva (Sanskrit), equus (Latin), and English equine all trace to PIE *h₁eḱwos; the horse's name varies but the animal shaped all our civilizations"
+        },
+        {
+          "polish": "krowa",
+          "phonetic": "KROH-vah",
+          "english": "cow",
+          "example_polish": "Krowa daje mleko.",
+          "example_english": "The cow gives milk.",
+          "connection": "Sanskrit: gāu (गो) · Hindi: gāy (गाय) · Marathi: gāy — from PIE *gʷow-; krowa and Hindi gāy both go back to PIE *gʷow-; English cow and Sanskrit go are the same ancient word"
+        },
+        {
+          "polish": "świnia",
+          "phonetic": "SHVEE-nyah",
+          "english": "pig",
+          "example_polish": "Świnia jest różowa.",
+          "example_english": "The pig is pink.",
+          "connection": "Sanskrit: sū-kara (सूकर) · Hindi: sūar (सूअर) · English: swine — from PIE *sūs; świnia, swine, and Hindi sūar all trace to the same PIE root; one of the oldest domesticated animal words"
+        },
+        {
+          "polish": "owca",
+          "phonetic": "OHF-tsah",
+          "english": "sheep",
+          "example_polish": "Owca daje wełnę.",
+          "example_english": "The sheep gives wool.",
+          "connection": "Sanskrit: avi (अवि) · Latin: ovis · English: ewe — from PIE *h₂ówis; Polish owca, Latin ovis, English ewe all from the same root; one of the first domesticated animals"
+        },
+        {
+          "polish": "koza",
+          "phonetic": "KOH-zah",
+          "english": "goat",
+          "example_polish": "Koza je trawę.",
+          "example_english": "The goat eats grass.",
+          "connection": "English: goat — from PIE *gʰaidos; Polish koza and English goat are cousins; goats were among the first animals domesticated in the Middle East"
+        },
+        {
+          "polish": "kura",
+          "phonetic": "KOO-rah",
+          "english": "hen / chicken",
+          "example_polish": "Kura zniosła jajko.",
+          "example_english": "The hen laid an egg.",
+          "connection": "Sanskrit: kukkuṭa (कुक्कुट) · Hindi: murghī — from PIE *ker- (to cry/crow); kura from the crowing sound; Sanskrit kukkuṭa (rooster) also mimics the crow; English crow relates too"
+        },
+        {
+          "polish": "wilk",
+          "phonetic": "vilk",
+          "english": "wolf",
+          "example_polish": "Wilk jest dzikim zwierzęciem.",
+          "example_english": "The wolf is a wild animal.",
+          "connection": "Sanskrit: vṛka (वृक) · English: wolf · Lithuanian: vilkas — from PIE *wĺ̥kʷos; wilk, wolf, vṛka are exact cognates across thousands of miles; the wolf stalked the PIE world from India to Iceland"
+        },
+        {
+          "polish": "niedźwiedź",
+          "phonetic": "nyeh-DJVYEDJ",
+          "english": "bear",
+          "example_polish": "W Polsce żyją niedźwiedzie.",
+          "example_english": "Bears live in Poland.",
+          "connection": "Sanskrit: ṛkṣa (ऋक्ष) · Greek: arktos (Arctic!) — from PIE *h₂ŕ̥tḱos; the Arctic is literally 'land of the bear'; Sanskrit ṛkṣa and Greek arktos are direct cognates; Polish niedźwiedź is a euphemism ('honey-eater') — the real word was taboo"
+        },
+        {
+          "polish": "mysz",
+          "phonetic": "mihsh",
+          "english": "mouse",
+          "example_polish": "Kot złapał mysz.",
+          "example_english": "The cat caught a mouse.",
+          "connection": "Sanskrit: mūṣa (मूष) · Hindi: cūhā · Latin: mus · English: mouse — from PIE *mūs; mysz, English mouse, and Latin mus are all the same word; Sanskrit mūṣa is a close cousin"
+        },
+        {
+          "polish": "wąż",
+          "phonetic": "vonzh",
+          "english": "snake",
+          "example_polish": "Wąż pełzał przez trawę.",
+          "example_english": "The snake crawled through the grass.",
+          "connection": "Sanskrit: ahi (अहि) · Latin: anguis · English: eel — from PIE *h₂engʷʰi-; Polish wąż, Sanskrit ahi (the primeval serpent), and Latin anguis all from the same root; English eel is a cousin"
+        },
+        {
+          "polish": "ptak",
+          "phonetic": "ptahk",
+          "english": "bird",
+          "example_polish": "Ptak śpiewa rano.",
+          "example_english": "The bird sings in the morning.",
+          "connection": "Sanskrit: patatī (पतति, 'it flies') · English: feather, pen — from PIE *poth₂- (to fly); Sanskrit patati (flies), English feather, and Latin penna (feather/pen) all relate to flight"
+        },
+        {
+          "polish": "orzeł",
+          "phonetic": "OH-zhew",
+          "english": "eagle",
+          "example_polish": "Orzeł jest symbolem Polski.",
+          "example_english": "The eagle is the symbol of Poland.",
+          "connection": "Latin: aquila · English: aquiline — from PIE *h₃er-; the White Eagle is Poland's national emblem; Latin aquila gives English aquiline; the eagle symbol unites the heraldry of Poland, India (Garuda), and Rome"
+        },
+        {
+          "polish": "żaba",
+          "phonetic": "ZHAH-bah",
+          "english": "frog",
+          "example_polski": "Żaba skacze.",
+          "example_polish": "Żaba skacze.",
+          "example_english": "The frog jumps.",
+          "connection": "English: croak, guttural — żaba is a Slavic onomatopoeic word; the frog's name in most languages mimics its sound: croak, grenouille, frog — all echo the noise"
+        },
+        {
+          "polish": "pszczoła",
+          "phonetic": "pchoh-WAH",
+          "english": "bee",
+          "example_polish": "Pszczoła zbiera miód.",
+          "example_english": "The bee collects honey.",
+          "connection": "Sanskrit: bhramara (भ्रमर) · English: bee — from PIE *bʰei- (to hum/buzz); Sanskrit bhramara and English bee share the buzzing sound root; honey (miód/madhu) connects bee to Sanskrit even more deeply"
+        },
+        {
+          "polish": "lis",
+          "phonetic": "lees",
+          "english": "fox",
+          "example_polish": "Lis jest chytry.",
+          "example_english": "The fox is cunning.",
+          "connection": "Latin: vulpes · English: vulpine — lis from Slavic (the 'sly one'); Latin vulpes gives English vulpine (fox-like); the fox is universally known as the clever trickster — a Slavic folk-tale staple"
+        },
+        {
+          "polish": "zając",
+          "phonetic": "ZAH-yonts",
+          "english": "hare / rabbit",
+          "example_polish": "Zając biegnie szybko.",
+          "example_english": "The hare runs fast.",
+          "connection": "English: hare — zając is Slavic; English hare from PIE *ḱeh₂ro- (grey); both the hare and rabbit are symbols of speed and trickery in folklore worldwide"
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "name": "Nature & Weather",
+      "icon": "🌿",
+      "cards": [
+        {
+          "polish": "słońce",
+          "phonetic": "SWOHN-tseh",
+          "english": "sun",
+          "example_polish": "Słońce świeci jasno.",
+          "example_english": "The sun shines brightly.",
+          "connection": "Sanskrit: sūrya (सूर्य) · Hindi: sūraj (सूरज) · English: sun, solar — from PIE *sóh₂wl̥; słońce, sūrya, sun, Sol — all the same ancient word for the great light"
+        },
+        {
+          "polish": "księżyc",
+          "phonetic": "KSYEN-zhihts",
+          "english": "moon",
+          "example_polish": "Księżyc jest pełny dzisiaj.",
+          "example_english": "The moon is full today.",
+          "connection": "Sanskrit: māsa (मास) · Hindi: mahīnā (महीना) — from PIE *mēns-; the moon is the measurer of months; Sanskrit māsa (month) and Polish miesiąc (month) share this root; the moon-month connection is universal"
+        },
+        {
+          "polish": "gwiazda",
+          "phonetic": "GVYAHZ-dah",
+          "english": "star",
+          "example_polish": "Na niebie jest dużo gwiazd.",
+          "example_english": "There are many stars in the sky.",
+          "connection": "Sanskrit: tārā (तारा) · Hindi: sitāra (सितारा) · English: star, astro — from PIE *h₂stḗr; gwiazda, tārā, star — all from the same ancient root; the sitar is named for stars (sitāra = star)"
+        },
+        {
+          "polish": "niebo",
+          "phonetic": "NYEH-boh",
+          "english": "sky / heaven",
+          "example_polski": "Niebo jest niebieskie.",
+          "example_polish": "Niebo jest niebieskie.",
+          "example_english": "The sky is blue.",
+          "connection": "Sanskrit: nabhas (नभस्) · Hindi: nabh (नभ) · English: nebula — from PIE *nébʰos (cloud/sky); niebo, nabh, and English nebula (cloud in Latin) all from the same root"
+        },
+        {
+          "polish": "ziemia",
+          "phonetic": "ZYEH-myah",
+          "english": "earth / ground",
+          "example_polish": "Ziemia jest okrągła.",
+          "example_english": "The earth is round.",
+          "connection": "Hindi: zamīn (ज़मीन) · Latin: humus · English: humble, human — from PIE *dʰéǵʰōm; English human means 'of the earth'; humble means 'close to the ground'; Hindi zamīn (land) via Persian shares the root"
+        },
+        {
+          "polish": "ogień",
+          "phonetic": "OH-gyen",
+          "english": "fire",
+          "example_polish": "Ogień jest gorący.",
+          "example_english": "Fire is hot.",
+          "connection": "Sanskrit: agni (अग्नि) · Hindi: āg (आग) · English: ignite — from PIE *h₁ngʷnis; ogień and agni are direct cognates; Agni is the Hindu fire god; English ignite comes from the same root; one of the most dramatic IE connections"
+        },
+        {
+          "polish": "wiatr",
+          "phonetic": "VYAHTR",
+          "english": "wind",
+          "example_polish": "Wiatr wieje mocno.",
+          "example_english": "The wind blows strongly.",
+          "connection": "Sanskrit: vāta (वात) · Hindi: havā (हवा) · English: wind — from PIE *h₂wéh₁nts (blowing); vāta, wind, and wiatr all trace to the same blowing root; Vayu (वायु) is the Hindu wind god"
+        },
+        {
+          "polish": "deszcz",
+          "phonetic": "deshch",
+          "english": "rain",
+          "example_polish": "Pada deszcz.",
+          "example_english": "It is raining.",
+          "connection": "English: dew — from PIE *dʰews- (to scatter/spray); deszcz and English dew both relate to water falling from the sky; the scattering of water droplets"
+        },
+        {
+          "polish": "śnieg",
+          "phonetic": "shnyeg",
+          "english": "snow",
+          "example_polish": "Pada śnieg.",
+          "example_english": "It is snowing.",
+          "connection": "Sanskrit: sneha (स्नेह) · English: snow — from PIE *snigʷʰ-; Polish śnieg and English snow are cousins; Sanskrit sneha (oiliness/love — the clinging wetness) shares the root; the same word for snow became the Sanskrit word for affection"
+        },
+        {
+          "polish": "lód",
+          "phonetic": "loot",
+          "english": "ice",
+          "example_polski": "Lód jest zimny.",
+          "example_polish": "Lód jest zimny.",
+          "example_english": "Ice is cold.",
+          "connection": "English: ice · German: Eis — from PIE *eydʰ-; Polish lód and English ice are cognates via different PIE branches; the concept of frozen water"
+        },
+        {
+          "polish": "góra",
+          "phonetic": "GOO-rah",
+          "english": "mountain",
+          "example_polish": "Tatry to góry w Polsce.",
+          "example_english": "The Tatras are mountains in Poland.",
+          "connection": "Sanskrit: giri (गिरि) · Hindi: pahāṛ — from PIE *gʷōreh₂; Sanskrit giri (mountain/hill) is a direct cognate of Polish góra; Girnar, Girivrajapura — many Indian place names use giri for mountain"
+        },
+        {
+          "polish": "rzeka",
+          "phonetic": "ZHEH-kah",
+          "english": "river",
+          "example_polish": "Wisła to rzeka w Polsce.",
+          "example_english": "The Vistula is a river in Poland.",
+          "connection": "Sanskrit: rājan (राजन्) · English: right, regulate — from PIE *h₃reǵ- (to flow straight/rule); river (to run straight) and rājan (king who rules straight) share a root; rivers were the original straight paths"
+        },
+        {
+          "polish": "morze",
+          "phonetic": "MOH-zheh",
+          "english": "sea",
+          "example_polish": "Bałtyk to morze.",
+          "example_english": "The Baltic is a sea.",
+          "connection": "Latin: mare · English: marine, mere — from PIE *móri; morze, Latin mare, English marine and mere (a lake) all from the same root"
+        },
+        {
+          "polish": "las",
+          "phonetic": "lahs",
+          "english": "forest",
+          "example_polish": "W lesie jest dużo grzybów.",
+          "example_english": "There are many mushrooms in the forest.",
+          "connection": "English: glade, clearing — las is Slavic; English forest comes from Latin foris (outside, beyond the town); forests defined the edge of civilization in both Slavic and Western European cultures"
+        },
+        {
+          "polish": "drzewo",
+          "phonetic": "DJEH-voh",
+          "english": "tree",
+          "example_polish": "To drzewo jest stare.",
+          "example_english": "This tree is old.",
+          "connection": "Sanskrit: dāru (दारु) · Hindi: dār (दार) — from PIE *dóru (wood/tree); drzewo and Sanskrit dāru are direct cognates; English tree, tar (from wood), and true (as solid as wood) share this root"
+        },
+        {
+          "polish": "kwiat",
+          "phonetic": "kvyaht",
+          "english": "flower",
+          "example_polish": "Te kwiaty są piękne.",
+          "example_english": "These flowers are beautiful.",
+          "connection": "Latin: flos · English: flower, bloom, blossom — from PIE *bʰleh₃- (to blossom); Polish kwiat and Latin flos both trace to the blossoming root; English flower is from Latin via French"
+        },
+        {
+          "polish": "zima",
+          "phonetic": "ZEE-mah",
+          "english": "winter",
+          "example_polski": "Zima jest zimna.",
+          "example_polish": "Zima jest zimna.",
+          "example_english": "Winter is cold.",
+          "connection": "Sanskrit: hima (हिम) · Hindi: himālaya — from PIE *ǵʰéyōm; zima and Sanskrit hima are direct cognates; Himalaya literally means 'abode of snow/winter' (hima + ālaya); the coldest season preserved its ancient name across 4000 miles"
+        },
+        {
+          "polish": "lato",
+          "phonetic": "LAH-toh",
+          "english": "summer",
+          "example_polish": "Lato jest moją ulubioną porą roku.",
+          "example_english": "Summer is my favorite season.",
+          "connection": "Latin: latus (broad/wide) — lato possibly from PIE *leh₂- (broad/expansive); summer as the broad, expansive season when the world opens up"
+        },
+        {
+          "polish": "wiosna",
+          "phonetic": "VYOH-snah",
+          "english": "spring",
+          "example_polish": "Wiosna jest moją ulubioną porą roku.",
+          "example_english": "Spring is my favorite season.",
+          "connection": "English: vernal, vesper — wiosna from PIE *wes-r- (spring); Latin ver (spring) gives vernal; the season of renewal shared across IE languages"
+        },
+        {
+          "polish": "kamień",
+          "phonetic": "KAH-myen",
+          "english": "stone",
+          "example_polish": "Rzuciłem kamień do wody.",
+          "example_english": "I threw a stone in the water.",
+          "connection": "Sanskrit: aśman (अश्मन्) · English: heaven — from PIE *h₂éḱmon-; remarkably, the same PIE root gave Sanskrit aśman (stone/sky-stone/thunderbolt) and is possibly related to the word for sky/heaven; the thunderbolt was the stone from heaven"
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "name": "Home & Objects",
+      "icon": "🏠",
+      "cards": [
+        {
+          "polish": "dom",
+          "phonetic": "dohm",
+          "english": "house / home",
+          "example_polish": "Mój dom jest w Warszawie.",
+          "example_english": "My home is in Warsaw.",
+          "connection": "Sanskrit: dāma (दाम) · Latin: domus · English: dome, domestic — from PIE *dómos; Polish dom, English dome, Latin domus all from the same root; Hindi ghar (from Persian) took a different path"
+        },
+        {
+          "polish": "drzwi",
+          "phonetic": "djvee",
+          "english": "door",
+          "example_polish": "Proszę zamknij drzwi.",
+          "example_english": "Please close the door.",
+          "connection": "Sanskrit: dvāra (द्वार) · Hindi: darvāzā (दरवाज़ा) · Marathi: dvār — from PIE *dʰwer-; drzwi, dvāra, door — one of the most direct connections; English door and Sanskrit dvāra are cousins; Hindi darvāzā via Persian also has this root"
+        },
+        {
+          "polish": "okno",
+          "phonetic": "OHK-noh",
+          "english": "window",
+          "example_polish": "Otwórz okno, proszę.",
+          "example_english": "Open the window, please.",
+          "connection": "Hindi: ākh (आँख) — okno literally means 'little eye' (from oko = eye); a window is the eye of the house; same PIE *h₃ekʷ- root as eye/ocular"
+        },
+        {
+          "polish": "stół",
+          "phonetic": "stoow",
+          "english": "table",
+          "example_polish": "Siądź przy stole.",
+          "example_english": "Sit at the table.",
+          "connection": "English: stall, stand — stół from *stojati (to stand), PIE *steh₂-; a table is a thing that stands; English stall and stool share this root"
+        },
+        {
+          "polish": "krzesło",
+          "phonetic": "KSHE-swoh",
+          "english": "chair",
+          "example_polish": "Proszę przynieść krzesło.",
+          "example_english": "Please bring a chair.",
+          "connection": "English: cross, crisscross — krzesło from crossed legs of early chairs; the cross-legged stool was the original portable seat"
+        },
+        {
+          "polish": "łóżko",
+          "phonetic": "WOOZH-koh",
+          "english": "bed",
+          "example_polish": "Idę spać do łóżka.",
+          "example_english": "I'm going to bed.",
+          "connection": "English: lodge, layer — łóżko from *ložiti (to lay down); English lodge (a place to lay) and lay share the concept of the horizontal resting place"
+        },
+        {
+          "polish": "książka",
+          "phonetic": "KSHONZH-kah",
+          "english": "book",
+          "example_polish": "Czytam ciekawą książkę.",
+          "example_english": "I'm reading an interesting book.",
+          "connection": "Chinese: jīng (経) via Turkic — książka from Proto-Slavic *kъniga, borrowed via Avar from Chinese jīng (a scroll/classic text); your Polish book has a Chinese ancestor"
+        },
+        {
+          "polish": "długopis",
+          "phonetic": "dwoo-GOH-pees",
+          "english": "pen (ballpoint)",
+          "example_polish": "Czy masz długopis?",
+          "example_english": "Do you have a pen?",
+          "connection": "Sanskrit: pi- (to write/decorate) — długopis = długo (long) + pisać (to write) = 'long-writer'; pisać from PIE *peik'- (to write/paint/decorate); Sanskrit pi- and English picture share this root"
+        },
+        {
+          "polish": "telefon",
+          "phonetic": "teh-LEH-fon",
+          "english": "telephone",
+          "example_polish": "Zadzwoń do mnie przez telefon.",
+          "example_english": "Call me on the phone.",
+          "connection": "Sanskrit: dūra (दूर) + dhvani (ध्वनि) — telefon from Greek tele (far) + phōnē (voice); Sanskrit dūra (far) + dhvani (sound) express the exact same concept; the telephone in any language is 'far-sound'"
+        },
+        {
+          "polish": "samochód",
+          "phonetic": "sah-moh-KHOOT",
+          "english": "car / automobile",
+          "example_polish": "Jadę samochodem do pracy.",
+          "example_english": "I drive a car to work.",
+          "connection": "Sanskrit: svayam (स्वयम्) — samochód = samo (self) + chód (going) = self-moving; Sanskrit svayam-calana means self-moving; automobile means the same in Greek/Latin; the concept of self-propulsion is the same across languages"
+        },
+        {
+          "polish": "miasto",
+          "phonetic": "MYAH-stoh",
+          "english": "city / town",
+          "example_polski": "Warszawa to duże miasto.",
+          "example_polish": "Warszawa to duże miasto.",
+          "example_english": "Warsaw is a big city.",
+          "connection": "English: mist, mystery — miasto from *město (place); possibly PIE *mey- (to exchange/change); cities as places where exchange happens; the market-place as the heart of civilization"
+        },
+        {
+          "polish": "sklep",
+          "phonetic": "sklep",
+          "english": "shop / store",
+          "example_polish": "Idę do sklepu.",
+          "example_english": "I'm going to the shop.",
+          "connection": "English: vault, cellar — sklep originally meant a vaulted cellar-shop; the first shops were stone-vaulted underground spaces; English vault has the same architectural concept"
+        },
+        {
+          "polish": "szkoła",
+          "phonetic": "SHKOH-wah",
+          "english": "school",
+          "example_polish": "Dzieci idą do szkoły.",
+          "example_english": "The children go to school.",
+          "connection": "Greek: skholē (leisure) · English: school — szkoła from Greek skholē, which meant leisure for learning; both Polish and English borrowed this Greek idea that education requires free time"
+        },
+        {
+          "polish": "ulica",
+          "phonetic": "oo-LEE-tsah",
+          "english": "street",
+          "example_polish": "Mieszkam przy tej ulicy.",
+          "example_english": "I live on this street.",
+          "connection": "English: alley, lane — ulica from PIE *h₂ewl- (enclosed lane); English alley shares this concept of a guided path between structures"
+        },
+        {
+          "polish": "pieniądze",
+          "phonetic": "pye-NYON-dzeh",
+          "english": "money",
+          "example_polish": "Nie mam dużo pieniędzy.",
+          "example_english": "I don't have a lot of money.",
+          "connection": "Hindi: paise (पैसे) · English: penny — from Latin denarius (Roman coin); English penny, Hindi paise, and Polish pieniądze all descend from the Roman denarius; Roman coins shaped the vocabulary of money across Eurasia"
+        },
+        {
+          "polish": "szpital",
+          "phonetic": "SHPEE-tahl",
+          "english": "hospital",
+          "example_polish": "On jest w szpitalu.",
+          "example_english": "He is in hospital.",
+          "connection": "Latin: hospitalis · English: hospital, host — from PIE *gʰosti- (guest/stranger); a hospital is a place of hospitality for the sick; English host, hospice, and hotel all share this root"
+        }
+      ]
+    },
+    {
+      "id": "verbs",
+      "name": "Common Verbs",
+      "icon": "⚡",
+      "cards": [
+        {
+          "polish": "być",
+          "phonetic": "bihch",
+          "english": "to be",
+          "example_polish": "Chcę być lekarzem.",
+          "example_english": "I want to be a doctor.",
+          "connection": "Sanskrit: bhava (भव) · Hindi: honā (होना) · English: be, become — from PIE *bʰew- (to grow/become); Sanskrit bhava (becoming/existence) and English be share the same root with Polish być"
+        },
+        {
+          "polish": "mieć",
+          "phonetic": "myech",
+          "english": "to have",
+          "example_polish": "Chcę mieć dom.",
+          "example_english": "I want to have a house.",
+          "connection": "English: medium, medical — mieć from PIE *med- (to take care of/measure); Latin medicus (doctor), English medical all from the idea of taking care/having charge of something"
+        },
+        {
+          "polish": "chcieć",
+          "phonetic": "khchech",
+          "english": "to want",
+          "example_polish": "Chcę się uczyć.",
+          "example_english": "I want to learn.",
+          "connection": "Sanskrit: gṛdh (गृध्) · Hindi: chāhanā (चाहना) — from PIE *gʰed- (to desire eagerly); Sanskrit gṛdha (greedy/eager) shares this root; Hindi chāh (desire/longing) is remarkably close to chcieć"
+        },
+        {
+          "polish": "wiedzieć",
+          "phonetic": "VYEH-jyech",
+          "english": "to know (a fact)",
+          "example_polish": "Wiem, że masz rację.",
+          "example_english": "I know you're right.",
+          "connection": "Sanskrit: Veda (वेद) · Hindi: vidyā (विद्या) — from PIE *weid- (to see/know); wiedzieć and Sanskrit Veda are direct cognates; the Vedas are literally 'knowledge/what is known'; English wise, vision, video all share this root — one of the most striking connections"
+        },
+        {
+          "polish": "znać",
+          "phonetic": "znach",
+          "english": "to know (a person/place)",
+          "example_polish": "Znam go od lat.",
+          "example_english": "I've known him for years.",
+          "connection": "Sanskrit: jñāna (ज्ञान) · Hindi: jānnā (जानना) — from PIE *ǵneh₃- (to know/recognize); znać, jānnā, English know and gnosis all from the same root; Sanskrit jñāna (wisdom) and English cognition share it too"
+        },
+        {
+          "polish": "iść",
+          "phonetic": "eeshch",
+          "english": "to go (on foot)",
+          "example_polish": "Idę do sklepu.",
+          "example_english": "I'm going to the shop.",
+          "connection": "Sanskrit: eti (एति, 'goes') · Latin: ire · English: exit, issue — from PIE *ey- (to go); Sanskrit iti (goes), Latin ire, and English exit (to go out) all share this root"
+        },
+        {
+          "polish": "jechać",
+          "phonetic": "YEH-khach",
+          "english": "to go (by vehicle)",
+          "example_polish": "Jadę samochodem.",
+          "example_english": "I'm going by car.",
+          "connection": "Sanskrit: yāna (यान) · Hindi: yātrā (यात्रा) — from PIE *yew- (to travel/convey); jechać and Sanskrit yāna (vehicle/journey) are cognates; yātrā (pilgrimage/journey) shares this root"
+        },
+        {
+          "polish": "mówić",
+          "phonetic": "MOO-veech",
+          "english": "to speak / to say",
+          "example_polish": "Mówię po polsku.",
+          "example_english": "I speak Polish.",
+          "connection": "English: mouth — mówić from PIE *mew-; English mouth (the speaking organ) and mówić (to use the mouth to speak) share the same root"
+        },
+        {
+          "polish": "słyszeć",
+          "phonetic": "SWIH-shech",
+          "english": "to hear",
+          "example_polish": "Słyszę muzykę.",
+          "example_english": "I hear music.",
+          "connection": "Sanskrit: śru (श्रु) · Hindi: sunanā (सुनना) — from PIE *ḱlew- (to hear); słyszeć and Sanskrit śru are cognates; Sanskrit śravaṇa (hearing/listening), the ear — the same PIE *ḱlew- root"
+        },
+        {
+          "polish": "widzieć",
+          "phonetic": "VEE-jyech",
+          "english": "to see",
+          "example_polish": "Widzę piękny zachód słońca.",
+          "example_english": "I see a beautiful sunset.",
+          "connection": "Sanskrit: vid (विद्) · English: vision, video, wise — from PIE *weid- (to see); widzieć, Sanskrit vid (to see/know), English vision — seeing and knowing are the same act in PIE"
+        },
+        {
+          "polish": "jeść",
+          "phonetic": "yeshch",
+          "english": "to eat",
+          "example_polish": "Lubię jeść pizzę.",
+          "example_english": "I like eating pizza.",
+          "connection": "Sanskrit: ad (अद्) · Latin: edere · English: eat, edible — from PIE *h₁ed- (to eat); jeść, Latin edere, English eat all from the same root; English edible and comestible come here too"
+        },
+        {
+          "polish": "pić",
+          "phonetic": "peech",
+          "english": "to drink",
+          "example_polish": "Lubię pić herbatę.",
+          "example_english": "I like drinking tea.",
+          "connection": "Sanskrit: pā (पा) · Hindi: pīnā (पीना) — from PIE *peh₃- (to drink); pić and pīnā are nearly identical; piwo (beer) literally means 'the drinkable'; one of the clearest verb connections"
+        },
+        {
+          "polish": "spać",
+          "phonetic": "spach",
+          "english": "to sleep",
+          "example_polish": "Śpię osiem godzin.",
+          "example_english": "I sleep eight hours.",
+          "connection": "Sanskrit: svap (स्वप्) · Hindi: sonā (सोना) — from PIE *swep- (to sleep); Sanskrit svapna (dream/sleep) and Polish spać are cognates; English soporific (sleep-inducing) also comes here"
+        },
+        {
+          "polish": "stać",
+          "phonetic": "stach",
+          "english": "to stand",
+          "example_polski": "Stoję przy oknie.",
+          "example_polish": "Stoję przy oknie.",
+          "example_english": "I'm standing by the window.",
+          "connection": "Sanskrit: sthā (स्था) · Hindi: khaṛā (खड़ा) — from PIE *steh₂- (to stand); stać, Sanskrit sthā, English stand and station all from the same root; Sanskrit sthāna (place/standing) and stupa (standing mound) share it"
+        },
+        {
+          "polish": "siedzieć",
+          "phonetic": "SHYE-jyech",
+          "english": "to sit",
+          "example_polish": "Siedzę przy stole.",
+          "example_english": "I'm sitting at the table.",
+          "connection": "Sanskrit: sad (सद्) · Latin: sedere · English: sit, sedentary — from PIE *sed- (to sit); siedzieć, Sanskrit sadana (seat/sitting place), English sedentary — all from the same sitting root"
+        },
+        {
+          "polish": "dać",
+          "phonetic": "dach",
+          "english": "to give",
+          "example_polish": "Dam ci książkę.",
+          "example_english": "I'll give you the book.",
+          "connection": "Sanskrit: dā (दा) · Hindi: denā (देना) — from PIE *deh₃- (to give); dać and denā are direct cognates; Latin dare (to give), English donation, data all from the same root"
+        },
+        {
+          "polish": "brać",
+          "phonetic": "brach",
+          "english": "to take",
+          "example_polish": "Wezmę parasol.",
+          "example_english": "I'll take an umbrella.",
+          "connection": "Sanskrit: bhara (भर) · English: bear, fertile — from PIE *bʰer- (to carry/bear); brać, Sanskrit bharati (carries), English bear (to carry) and fertile all from the same root"
+        },
+        {
+          "polish": "lubić",
+          "phonetic": "LOO-beech",
+          "english": "to like",
+          "example_polish": "Lubię muzykę.",
+          "example_english": "I like music.",
+          "connection": "Sanskrit: lobha (लोभ) · Hindi: lobh (लोभ) — from PIE *lewbʰ- (to desire); lubić (to like/love) and Sanskrit lobha (desire/greed) share the same root; liking something intensely becomes wanting it"
+        },
+        {
+          "polish": "kochać",
+          "phonetic": "KOH-khach",
+          "english": "to love",
+          "example_polish": "Kocham cię.",
+          "example_english": "I love you.",
+          "connection": "Sanskrit: kāma (काम) — from PIE *keh₁- (to desire); kochać (to love) and Sanskrit Kāma (god of love/desire) may share this root; Kāmadeva, the Hindu Cupid, and Polish love — a beautiful possible connection"
+        },
+        {
+          "polish": "myśleć",
+          "phonetic": "MIH-shlech",
+          "english": "to think",
+          "example_polish": "Myślę, więc jestem.",
+          "example_english": "I think, therefore I am.",
+          "connection": "Sanskrit: manas (मनस्) · Hindi: man (मन) — from PIE *men- (mind/think); myśleć and Sanskrit manas (mind) are cognates; English mental, Hindi man (heart-mind), Polish myśl (thought) — all from the same root"
+        },
+        {
+          "polish": "rozumieć",
+          "phonetic": "roh-ZOO-myech",
+          "english": "to understand",
+          "example_polish": "Nie rozumiem tego słowa.",
+          "example_english": "I don't understand this word.",
+          "connection": "Sanskrit: manas (मनस्) — rozumieć = roz- (apart) + um (mind); the um root connects to mind/wisdom; understanding as 'taking apart with the mind'"
+        },
+        {
+          "polish": "uczyć się",
+          "phonetic": "OO-chihch sheh",
+          "english": "to learn / to study",
+          "example_polish": "Uczę się języka polskiego.",
+          "example_english": "I'm learning Polish.",
+          "connection": "Sanskrit: uktha (उक्थ) — from PIE *h₂ewk- (to speak/pronounce); learning was originally learning to recite; Sanskrit uktha (recitation/hymn) and Polish uczyć share the vocal/learning root"
+        },
+        {
+          "polish": "pracować",
+          "phonetic": "prah-TSOH-vach",
+          "english": "to work",
+          "example_polish": "Pracuję od dziewiątej do piątej.",
+          "example_english": "I work from nine to five.",
+          "connection": "English: pray, precarious — pracować from PIE *prek- (to ask/request); work originally meant labor done at another's request; English precarious (dependent on prayer/request) shares this root"
+        },
+        {
+          "polish": "kupić",
+          "phonetic": "KOO-peech",
+          "english": "to buy",
+          "example_polish": "Chcę kupić nową książkę.",
+          "example_english": "I want to buy a new book.",
+          "connection": "Latin: caupo · English: cheap, cope — kupić from Latin caupo (shopkeeper); English cheap originally meant 'a bargain/trade'; English cope (to manage/trade) shares this root"
+        },
+        {
+          "polish": "otworzyć",
+          "phonetic": "oh-TVOH-zhihch",
+          "english": "to open",
+          "example_polish": "Otwórz drzwi.",
+          "example_english": "Open the door.",
+          "connection": "Sanskrit: dvāra (द्वार) · Hindi: khulnā — otworzyć from *dʰwer- (door); to open = to un-door; Sanskrit dvāra and English door share this root; opening is literally 'doing something to the door'"
+        },
+        {
+          "polish": "zamknąć",
+          "phonetic": "ZAHM-knonch",
+          "english": "to close / to lock",
+          "example_polish": "Zamknij okno.",
+          "example_english": "Close the window.",
+          "connection": "English: mock, make — zamknąć = za (behind) + mknąć (to speed/snap shut); the sound of clicking shut echoes in Polish, English, and many languages"
+        },
+        {
+          "polish": "czytać",
+          "phonetic": "CHIH-tach",
+          "english": "to read",
+          "example_polish": "Lubię czytać książki.",
+          "example_english": "I like reading books.",
+          "connection": "Sanskrit: cit (चित्) · Hindi: cetanā (चेतना) — from PIE *kʷey- (to perceive/notice); czytać and Sanskrit cit (to perceive/be aware) share the root of paying attention; reading as conscious perception"
+        },
+        {
+          "polish": "pisać",
+          "phonetic": "PEE-sach",
+          "english": "to write",
+          "example_polish": "Piszę list do przyjaciela.",
+          "example_english": "I'm writing a letter to a friend.",
+          "connection": "Sanskrit: piṃśati (पिंशति) · English: picture, paint — from PIE *peik'- (to paint/write/decorate); pisać, English picture, and Latin pingere (to paint) all from the same root; writing began as drawing/painting"
+        },
+        {
+          "polish": "płacić",
+          "phonetic": "PWAH-cheech",
+          "english": "to pay",
+          "example_polish": "Chcę zapłacić kartą.",
+          "example_english": "I want to pay by card.",
+          "connection": "Sanskrit: pṛthu (पृथु) · English: flat, floor — płacić from *płat (flat piece of metal); payment was originally a flat piece of metal; Sanskrit pṛthu (broad/flat) and English flat/floor share this root"
+        }
+      ]
+    },
+    {
+      "id": "adjectives",
+      "name": "Adjectives",
+      "icon": "✨",
+      "cards": [
+        {
+          "polish": "duży",
+          "phonetic": "DOO-zhih",
+          "english": "big / large",
+          "example_polish": "To jest duże miasto.",
+          "example_english": "This is a big city.",
+          "connection": "Sanskrit: dīrgha (दीर्घ) — from PIE *dl̥H-gʰo- (long/extended); dīrgha (long/tall) and duży share the concept of extended size; English tall and long distantly relate"
+        },
+        {
+          "polish": "mały",
+          "phonetic": "MAH-wih",
+          "english": "small / little",
+          "example_polish": "Mam małego psa.",
+          "example_english": "I have a small dog.",
+          "connection": "Sanskrit: mṛdu (मृदु) · English: mild, mild — from PIE *mel- (soft/small); Sanskrit mṛdu (soft/tender/small) and Polish mały share the concept of smallness through softness"
+        },
+        {
+          "polish": "dobry",
+          "phonetic": "DOB-rih",
+          "english": "good",
+          "example_polish": "To jest dobry pomysł.",
+          "example_english": "That's a good idea.",
+          "connection": "English: deft, dab — dobry from PIE *dʰo-bʰro- (fitting/suitable); English deft (skillfully good) shares this root; a 'deft' person is literally a 'good' one"
+        },
+        {
+          "polish": "zły",
+          "phonetic": "zwih",
+          "english": "bad / evil / angry",
+          "example_polish": "On jest zły na mnie.",
+          "example_english": "He is angry with me.",
+          "connection": "English: slow, slug — zły from PIE *slew- (slack/slow); bad as 'slow/deficient'; English sluggard and sloth relate to the original sense of failing to be good"
+        },
+        {
+          "polish": "nowy",
+          "phonetic": "NOH-vih",
+          "english": "new",
+          "example_polish": "Mam nowy telefon.",
+          "example_english": "I have a new phone.",
+          "connection": "Sanskrit: nava (नव) · Hindi: nayā (नया) · Latin: novus · English: new — from PIE *néwos; nowy, nava, new, novus — one of the most consistent words across all IE languages; Nova (new star) uses the same root"
+        },
+        {
+          "polish": "stary",
+          "phonetic": "STAH-rih",
+          "english": "old",
+          "example_polish": "To jest stary dom.",
+          "example_english": "This is an old house.",
+          "connection": "Sanskrit: sthāvira (स्थाविर) · English: stand, stable — from PIE *steh₂- (to stand firm); stary and Sanskrit sthāvira (old/established elder) share the root of 'standing firm for a long time'"
+        },
+        {
+          "polish": "młody",
+          "phonetic": "MWOH-dih",
+          "english": "young",
+          "example_polish": "Ona jest młoda.",
+          "example_english": "She is young.",
+          "connection": "Sanskrit: yuvan (युवन्) · Hindi: javān (जवान) · Latin: iuvenis · English: juvenile — from PIE *h₂yew- (young/vigorous); młody and Sanskrit yuvan are cognates; Hindi javān (young man/soldier) shares this root"
+        },
+        {
+          "polish": "piękny",
+          "phonetic": "PYEN-kih",
+          "english": "beautiful",
+          "example_polish": "To jest piękne miejsce.",
+          "example_english": "This is a beautiful place.",
+          "connection": "English: fine, refined — piękny from *pěknъ; the concept of beauty as fineness and refinement is shared; Latin bellus (beautiful) gives English belle and beauty via French"
+        },
+        {
+          "polish": "gorący",
+          "phonetic": "goh-RON-tsih",
+          "english": "hot",
+          "example_polish": "Ta zupa jest gorąca.",
+          "example_english": "This soup is hot.",
+          "connection": "Sanskrit: ghṛta (घृत) · Hindi: garm (गर्म) — from PIE *gʷʰer- (warm/hot); gorący and Sanskrit ghṛta (ghee/clarified butter — the heated/clarified one) share this root; ghee is literally 'the hot stuff'"
+        },
+        {
+          "polish": "zimny",
+          "phonetic": "ZEEM-nih",
+          "english": "cold",
+          "example_polish": "Woda jest zimna.",
+          "example_english": "The water is cold.",
+          "connection": "Sanskrit: hima (हिम) — zimny from zima (winter); same PIE *ǵʰéyōm root as Himalaya; cold=wintry=snowy, a connected chain from Poland to the Himalayas"
+        },
+        {
+          "polish": "szybki",
+          "phonetic": "SHIHP-kee",
+          "english": "fast / quick",
+          "example_polish": "Ten pies jest szybki.",
+          "example_english": "This dog is fast.",
+          "connection": "English: whip, sweep — szybki from *šybati (to swing/sweep); English whip (fast movement) and sweep share the concept of swift motion"
+        },
+        {
+          "polish": "wolny",
+          "phonetic": "VOL-nih",
+          "english": "slow / free",
+          "example_polish": "Idę wolno.",
+          "example_english": "I walk slowly.",
+          "connection": "Sanskrit: vara (वर) · English: will, well — wolny (both slow and free) from PIE *welH- (to will/choose); to be free is to move at your own will; Sanskrit vara (wish/boon/choice) shares this root"
+        },
+        {
+          "polish": "łatwy",
+          "phonetic": "WAHT-vih",
+          "english": "easy",
+          "example_polish": "To zadanie jest łatwe.",
+          "example_english": "This task is easy.",
+          "connection": "Sanskrit: laghu (लघु) · English: light (not heavy) — from PIE *h₁lengʷʰ- (light/nimble); łatwy and Sanskrit laghu (light/easy/quick) share the concept that what is light is easy; English light and agile come from the same root"
+        },
+        {
+          "polish": "trudny",
+          "phonetic": "TROOD-nih",
+          "english": "difficult",
+          "example_polish": "To jest trudne pytanie.",
+          "example_english": "This is a difficult question.",
+          "connection": "English: trudge, tread — from PIE *trud- (to push/press); trudny and English trudge share the concept of laborious effort; difficulty as having to push through"
+        },
+        {
+          "polish": "szczęśliwy",
+          "phonetic": "shchen-SHLEE-vih",
+          "english": "happy",
+          "example_polish": "Jestem szczęśliwy.",
+          "example_english": "I am happy.",
+          "connection": "Sanskrit: śam (शम्) · English: happy (from hap = luck) — szczęście (happiness) relates to good fortune/luck; Sanskrit śam (peace/well-being) and English happy (from lucky) both reach happiness through external good"
+        },
+        {
+          "polish": "głodny",
+          "phonetic": "GWOD-nih",
+          "english": "hungry",
+          "example_polish": "Jestem głodny.",
+          "example_english": "I am hungry.",
+          "connection": "Sanskrit: gal (गल) · English: gullet, gulp — from PIE *gel- (to swallow/devour); głodny and English gullet (throat for swallowing) share the devouring root; hunger is the urge to swallow"
+        },
+        {
+          "polish": "zmęczony",
+          "phonetic": "zmen-CHOH-nih",
+          "english": "tired",
+          "example_polish": "Jestem zmęczony po pracy.",
+          "example_english": "I'm tired after work.",
+          "connection": "English: muddy, muddle — zmęczony from *mącić (to muddy/confuse); tiredness as mental muddling; English muddle (confused/tired state) shares the concept"
+        },
+        {
+          "polish": "ciekawy",
+          "phonetic": "chye-KAH-vih",
+          "english": "interesting / curious",
+          "example_polish": "To jest ciekawa książka.",
+          "example_english": "This is an interesting book.",
+          "connection": "Sanskrit: cit (चित्) · Hindi: cetanā (चेतना) — from PIE *kʷey- (to perceive/be aware); ciekawy (curious) and Sanskrit cit (consciousness/awareness) share the root of attentive perception; Caitanya (consciousness) uses this root"
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "name": "Time & Calendar",
+      "icon": "⏰",
+      "cards": [
+        {
+          "polish": "czas",
+          "phonetic": "chahs",
+          "english": "time",
+          "example_polish": "Nie mam czasu.",
+          "example_english": "I don't have time.",
+          "connection": "Sanskrit: kāla (काल) · Hindi: waqt (from Arabic) — czas may connect to PIE *kʷo- (when/how); Sanskrit kāla (time/fate/the dark one) is the Hindu god of time; the concept of time as the great force"
+        },
+        {
+          "polish": "dzień",
+          "phonetic": "jyen",
+          "english": "day",
+          "example_polish": "Dobry dzień!",
+          "example_english": "Good day!",
+          "connection": "Sanskrit: dina (दिन) · Hindi: din (दिन) — from PIE *dyew- (sky/day/light); dzień, Sanskrit dina, Hindi din — all from the sky-god root; English day, Latin dies (diary, diurnal), and Sanskrit dina all share PIE *dyew-"
+        },
+        {
+          "polish": "noc",
+          "phonetic": "nots",
+          "english": "night",
+          "example_polish": "Dobranoc!",
+          "example_english": "Good night!",
+          "connection": "Sanskrit: nakta (नक्त) · Latin: nox · English: nocturnal — from PIE *nókʷts; Polish noc, English nocturnal, Latin nox all from the same root; Sanskrit nakta (night) is a direct cognate"
+        },
+        {
+          "polish": "rano",
+          "phonetic": "RAH-noh",
+          "english": "morning",
+          "example_polski": "Wstaję o siódmej rano.",
+          "example_polish": "Wstaję o siódmej rano.",
+          "example_english": "I get up at seven in the morning.",
+          "connection": "Sanskrit: uṣas (उषस्) · English: east, aurora — from PIE *h₂ews- (dawn); Sanskrit Uṣas (goddess of dawn), English east and Easter, Latin aurora — all from the same dawn root; rano (morning) echoes the ancient reverence for dawn"
+        },
+        {
+          "polish": "wieczór",
+          "phonetic": "VYEH-choor",
+          "english": "evening",
+          "example_polish": "Dobry wieczór!",
+          "example_english": "Good evening!",
+          "connection": "Latin: vesper · English: west, vespers — from PIE *wek'spero-; Polish wieczór, Latin vesper (evening star), English west (where the sun sets) all trace to the same evening root"
+        },
+        {
+          "polish": "tydzień",
+          "phonetic": "TIH-jyen",
+          "english": "week",
+          "example_polish": "Mam wolny tydzień.",
+          "example_english": "I have a free week.",
+          "connection": "English: ten days — tydzień literally means 'this day' (in the cycle); the seven-day week came to Europe from Babylon through the Jewish/Roman calendar; Sanskrit saptāha (seven-unit = week) uses the same counting logic"
+        },
+        {
+          "polish": "miesiąc",
+          "phonetic": "MYEH-shonts",
+          "english": "month",
+          "example_polski": "Ten miesiąc jest długi.",
+          "example_polish": "Ten miesiąc jest długi.",
+          "example_english": "This month is long.",
+          "connection": "Sanskrit: māsa (मास) · Hindi: mahīnā — from PIE *mēns- (moon/month); miesiąc and Sanskrit māsa are direct cognates; the moon (księżyc) measures months; English month and moon share the same PIE root"
+        },
+        {
+          "polish": "rok",
+          "phonetic": "rohk",
+          "english": "year",
+          "example_polish": "W tym roku jadę do Polski.",
+          "example_english": "This year I'm going to Poland.",
+          "connection": "Sanskrit: ṛtu (ऋतु) · English: right, regulate — from PIE *h₃reǵ- (right/regular); a year as the right/regular cycle; Sanskrit ṛtu (season/proper time) and English regulate (from the same root) share the idea of natural order"
+        },
+        {
+          "polish": "poniedziałek",
+          "phonetic": "po-nyeh-JYAH-wek",
+          "english": "Monday",
+          "example_polish": "W poniedziałek zaczynam pracę.",
+          "example_english": "I start work on Monday.",
+          "connection": "Hindi: somwār (सोमवार) — poniedziałek = 'after Sunday' (po + niedziela); Hindi somwār = Moon's day (soma = moon); both languages named Monday after the moon or its relation to Sunday"
+        },
+        {
+          "polish": "środa",
+          "phonetic": "SHROH-dah",
+          "english": "Wednesday",
+          "example_polish": "W środę mam zebranie.",
+          "example_english": "I have a meeting on Wednesday.",
+          "connection": "Hindi: budhwār (बुधवार) — środa = middle (of the week); budhwār = Mercury's day (budh = Mercury/wisdom); English Wednesday = Woden's day; all three named the midweek differently — day of wisdom, middle, or Woden"
+        },
+        {
+          "polish": "piątek",
+          "phonetic": "PYON-tek",
+          "english": "Friday",
+          "example_polish": "W piątek mam wolne.",
+          "example_english": "I have Friday off.",
+          "connection": "Sanskrit: pañca (पञ्च) — piątek = fifth day (from pięć = five); Sanskrit pañca-devī (Friday) also counts from five; English Friday = Freya's day; Polish simply counted: the fifth day"
+        },
+        {
+          "polish": "sobota",
+          "phonetic": "soh-BOH-tah",
+          "english": "Saturday",
+          "example_polish": "W sobotę idę na spacer.",
+          "example_english": "On Saturday I go for a walk.",
+          "connection": "Hebrew: Shabbat · Hindi: śaniwār — sobota from Hebrew Shabbat (day of rest); Hebrew shabbat spread through Christianity and Islam into Polish; English Saturday = Saturn's day; all named after different sacred concepts"
+        },
+        {
+          "polish": "niedziela",
+          "phonetic": "nyeh-JYEH-lah",
+          "english": "Sunday",
+          "example_polish": "W niedzielę chodzimy do kościoła.",
+          "example_english": "On Sunday we go to church.",
+          "connection": "Sanskrit: akarman (no-work day) — niedziela = 'no-work day' (nie = no + działać = to work/act); Sanskrit akarman (non-action day) expresses the same concept; English Sunday = Sun's day"
+        },
+        {
+          "polish": "wczoraj",
+          "phonetic": "FCHOH-rahy",
+          "english": "yesterday",
+          "example_polish": "Wczoraj byłem w kinie.",
+          "example_english": "Yesterday I was at the cinema.",
+          "connection": "Sanskrit: hyas (ह्यस्) · Hindi: kal (कल) — from PIE *dʰǵʰyes- (yesterday); wczoraj and Sanskrit hyas are direct cognates; English yesterday also traces here; Hindi kal means both yesterday and tomorrow — the day adjacent to today"
+        },
+        {
+          "polish": "jutro",
+          "phonetic": "YOO-troh",
+          "english": "tomorrow",
+          "example_polish": "Do zobaczenia jutro!",
+          "example_english": "See you tomorrow!",
+          "connection": "Sanskrit: śvas (श्वस्) · Hindi: kal (कल) — jutro from PIE *yew-tro (the next dawn); Sanskrit śvas (tomorrow), English tomorrow (to + morrow = toward the next morning); Hindi kal serves for both past and future adjacent days"
+        }
+      ]
+    },
+    {
+      "id": "travel",
+      "name": "Travel & Directions",
+      "icon": "✈️",
+      "cards": [
+        {
+          "polish": "lewo",
+          "phonetic": "LEH-voh",
+          "english": "left",
+          "example_polish": "Skręć w lewo.",
+          "example_english": "Turn left.",
+          "connection": "Sanskrit: vāma (वाम) · Latin: laevus · English: left — from PIE *léwos; Polish lewo, Latin laevus, and Sanskrit vāma (left — also meaning beautiful/contrary) all from the same root"
+        },
+        {
+          "polish": "prawo",
+          "phonetic": "PRAH-voh",
+          "english": "right (direction) / law",
+          "example_polish": "Skręć w prawo.",
+          "example_english": "Turn right.",
+          "connection": "Sanskrit: prāk (प्राक्) · English: right, correct — from PIE *prok'- (forward/right); prawo means both 'right direction' and 'law/right'; English right (direction and correct) perfectly mirrors this dual meaning"
+        },
+        {
+          "polish": "prosto",
+          "phonetic": "PROHS-toh",
+          "english": "straight ahead",
+          "example_polish": "Idź prosto.",
+          "example_english": "Go straight ahead.",
+          "connection": "Sanskrit: prastha (प्रस्थ) · English: prostrate, first — from PIE *pro-steh₂- (stretched out forward); prosto and Sanskrit prastha (plateau = spread-flat) and English prostrate (stretched forward) share the root"
+        },
+        {
+          "polish": "tutaj",
+          "phonetic": "TOO-tahy",
+          "english": "here",
+          "example_polish": "Jestem tutaj.",
+          "example_english": "I'm here.",
+          "connection": "Sanskrit: tad (तद्) · English: this, that, the — from PIE *to- (demonstrative); tutaj, Sanskrit tad, English this/that/the all use the same PIE demonstrative sound to point at things"
+        },
+        {
+          "polish": "tam",
+          "phonetic": "tahm",
+          "english": "there",
+          "example_polish": "On jest tam.",
+          "example_english": "He is there.",
+          "connection": "Sanskrit: tad (तद्) · Hindi: vahān (वहाँ) · English: there, that — same PIE *to- demonstrative as tutaj; tam, there, Sanskrit tad — the pointing finger of language"
+        },
+        {
+          "polish": "blisko",
+          "phonetic": "BLEES-koh",
+          "english": "near / close",
+          "example_polish": "Dworzec jest blisko.",
+          "example_english": "The station is close.",
+          "connection": "English: bliss, bless — blisko from Slavic *blizъ (near); English bless (to make near/holy) and bliss (nearness to happiness) distantly relate to the concept of closeness"
+        },
+        {
+          "polish": "daleko",
+          "phonetic": "dah-LEH-koh",
+          "english": "far",
+          "example_polish": "Lotnisko jest daleko.",
+          "example_english": "The airport is far.",
+          "connection": "Sanskrit: dīrgha (दीर्घ) · English: tall, long — from PIE *dl̥H-gʰo-; daleko and Sanskrit dīrgha (long/far) share the concept of extended distance"
+        },
+        {
+          "polish": "dworzec",
+          "phonetic": "DVOH-zhets",
+          "english": "station (train/bus)",
+          "example_polish": "Gdzie jest dworzec?",
+          "example_english": "Where is the station?",
+          "connection": "Sanskrit: dvāra (द्वार) · Hindi: darvāzā — dworzec from dwór (court/yard), from PIE *dʰwer- (door/gateway); the train station as the great gateway; Sanskrit dvāra (door) is a direct cognate"
+        },
+        {
+          "polish": "lotnisko",
+          "phonetic": "lot-NEES-koh",
+          "english": "airport",
+          "example_polish": "Jadę na lotnisko.",
+          "example_english": "I'm going to the airport.",
+          "connection": "English: flight, flee — lotnisko from lot (flight) from *letět (to fly); English flight and flee from PIE *plewd- (to flow/fly); the airport as the flying-place"
+        },
+        {
+          "polish": "hotel",
+          "phonetic": "HOH-tel",
+          "english": "hotel",
+          "example_polish": "Mieszkam w hotelu.",
+          "example_english": "I'm staying in a hotel.",
+          "connection": "Sanskrit: atithi (अतिथि) · Latin: hospes — from PIE *gʰosti- (guest); Polish hotel, English hospital, and Sanskrit atithi (guest, literally 'one without a fixed date') all express the sacred guest-host relationship"
+        },
+        {
+          "polish": "restauracja",
+          "phonetic": "res-tow-RAH-tsyah",
+          "english": "restaurant",
+          "example_polish": "Chodźmy do restauracji.",
+          "example_english": "Let's go to a restaurant.",
+          "connection": "Latin: restaurare · English: restore — restauracja from French restaurant (a restorative broth); the original restaurants served bouillon to restore health; English restore shares the same Latin root"
+        },
+        {
+          "polish": "bazar",
+          "phonetic": "BAH-zar",
+          "english": "market / bazaar",
+          "example_polish": "Kupię to na bazarze.",
+          "example_english": "I'll buy it at the market.",
+          "connection": "Hindi: bāzār (बाज़ार) · Persian: bāzār — bazar is the SAME WORD in Polish and Hindi, both borrowed from Persian bāzār; the Silk Road brought this word to both Poland and India"
+        },
+        {
+          "polish": "paszport",
+          "phonetic": "PAHSH-port",
+          "english": "passport",
+          "example_polish": "Potrzebuję paszportu.",
+          "example_english": "I need a passport.",
+          "connection": "Sanskrit: para (पर) · English: port, pass — paszport = French passe (to pass) + port (gate/harbor); PIE *pṓr- (crossing/ford); Sanskrit para (beyond/other side), English ford (river crossing) — all about the passage across a boundary"
+        },
+        {
+          "polish": "bilet",
+          "phonetic": "BEE-let",
+          "english": "ticket",
+          "example_polish": "Kupię bilet na pociąg.",
+          "example_english": "I'll buy a train ticket.",
+          "connection": "French: billet · English: bill, bulletin — bilet from French billet (small document/seal); English bill and bulletin share the same root; a ticket as a small written authorization"
+        },
+        {
+          "polish": "cena",
+          "phonetic": "TSEH-nah",
+          "english": "price",
+          "example_polish": "Jaka jest cena?",
+          "example_english": "What is the price?",
+          "connection": "Sanskrit: citi (चिति) · Latin: poena · English: pain, penal — from PIE *kʷey- (payment/value/penalty); cena (price), Latin poena (punishment/fine), English pain and penal — all from the concept of value and what must be paid"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Korzeń — Learn Polish vocabulary through etymology</title>
+  <meta name="description" content="Learn Polish vocabulary by tracing words back to the languages you already know.">
+  <link rel="canonical" href="https://sagarlekar.github.io/korzen/">
+  <meta property="og:title" content="Korzeń — Learn Polish vocabulary through etymology">
+  <meta property="og:description" content="Polish matka, Hindi mā — same root for 6,000 years. Learn 238 words through Indo-European bridges to English, Hindi, Konkani, and Marathi.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sagarlekar.github.io/korzen/">
+  <meta property="og:image" content="https://sagarlekar.github.io/korzen/og.png">
+  <meta property="og:image:width" content="1680">
+  <meta property="og:image:height" content="858">
+  <meta property="og:image:alt" content="Korzeń — matka and mā (mother) from PIE *méh₂tēr, with Sanskrit mātā and English mother">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Korzeń — Learn Polish vocabulary through etymology">
+  <meta name="twitter:description" content="Polish matka, Hindi mā — same root for 6,000 years. Learn Polish through roots you already know.">
+  <meta name="twitter:image" content="https://sagarlekar.github.io/korzen/og.png">
+  <meta name="twitter:image:alt" content="Korzeń — matka and mā (mother) from PIE *méh₂tēr, with Sanskrit mātā and English mother">
+  <meta name="theme-color" content="#DC143C">
+  <style>
+    :root {
+      --red: #DC143C;
+      --dark-red: #9B0B2B;
+      --cream: #FDF6EE;
+      --card-bg: #FFFFFF;
+      --text: #1C1C2E;
+      --muted: #6B6B7B;
+      --border: #E8E0D8;
+      --success: #27AE60;
+      --danger: #E74C3C;
+      --shadow: 0 4px 24px rgba(0,0,0,0.10);
+      --shadow-lg: 0 8px 40px rgba(0,0,0,0.16);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: var(--red);
+      color: #fff;
+      padding: 14px 20px;
+      padding-top: max(14px, env(safe-area-inset-top));
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    }
+    .header-title { display: flex; flex-direction: column; gap: 2px; }
+    header h1 { font-size: 1.25rem; font-weight: 700; letter-spacing: -0.3px; line-height: 1.2; }
+    header h1 span { font-size: 1.3rem; margin-right: 7px; }
+    .tagline { font-size: 0.68rem; color: rgba(255,255,255,0.62); font-style: italic; letter-spacing: 0.15px; }
+    .header-actions { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+    .header-btn {
+      background: rgba(255,255,255,0.2);
+      border: 1px solid rgba(255,255,255,0.4);
+      color: #fff;
+      padding: 6px 14px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      font-weight: 500;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+    .header-btn:hover { background: rgba(255,255,255,0.35); }
+    #restart-btn { padding: 6px 12px; }
+
+    /* ── HELP MODAL ── */
+    #help-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      background: rgba(28, 28, 46, 0.45);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.28s ease, visibility 0.28s;
+      padding: 0;
+    }
+    #help-overlay.open {
+      opacity: 1;
+      visibility: visible;
+    }
+    #help-panel {
+      width: 100%;
+      max-height: min(90vh, 720px);
+      background: var(--card-bg);
+      border-radius: 20px 20px 0 0;
+      box-shadow: var(--shadow-lg);
+      display: flex;
+      flex-direction: column;
+      transform: translateY(100%);
+      transition: transform 0.32s cubic-bezier(0.32, 0.72, 0, 1);
+      padding-bottom: env(safe-area-inset-bottom, 0);
+    }
+    #help-overlay.open #help-panel {
+      transform: translateY(0);
+    }
+    .help-handle {
+      width: 36px;
+      height: 4px;
+      background: var(--border);
+      border-radius: 2px;
+      margin: 10px auto 0;
+      flex-shrink: 0;
+    }
+    .help-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 12px 20px 14px;
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    .help-header h2 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .help-close {
+      background: var(--cream);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      font-size: 1.25rem;
+      line-height: 1;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .help-close:hover { border-color: var(--red); color: var(--red); }
+    .help-body {
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior: contain;
+      padding: 18px 20px 24px;
+    }
+    .help-body section + section { margin-top: 22px; }
+    .help-body h3 {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      color: var(--red);
+      margin-bottom: 10px;
+    }
+    .help-body p {
+      font-size: 0.92rem;
+      line-height: 1.6;
+      color: var(--text);
+    }
+    .help-body p + p { margin-top: 10px; }
+    .help-body em { font-style: italic; color: var(--muted); }
+    .help-body code {
+      font-size: 0.84rem;
+      background: var(--cream);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 1px 5px;
+    }
+    .help-examples {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .help-example {
+      background: #F3EFF9;
+      color: #7B5EA7;
+      font-size: 0.82rem;
+      font-weight: 600;
+      padding: 6px 12px;
+      border-radius: 20px;
+    }
+    .help-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .help-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 0.9rem;
+      line-height: 1.45;
+    }
+    .help-list .icon { flex-shrink: 0; width: 1.4rem; text-align: center; }
+    .help-kbd-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 4px;
+    }
+    .help-kbd {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--cream);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 8px 12px;
+      font-size: 0.82rem;
+      color: var(--text);
+    }
+    .help-kbd kbd {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      padding: 2px 7px;
+      font-family: inherit;
+      font-size: 0.78rem;
+      font-weight: 600;
+      box-shadow: 0 1px 0 var(--border);
+    }
+    .help-github {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      margin-top: 14px;
+      padding: 13px 20px;
+      background: var(--red);
+      color: #fff;
+      border-radius: 14px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .help-github:hover { background: var(--dark-red); }
+    body.help-open { overflow: hidden; }
+
+    @media (min-width: 560px) {
+      #help-overlay {
+        align-items: center;
+        padding: 24px;
+      }
+      #help-panel {
+        max-width: 440px;
+        border-radius: 20px;
+        max-height: min(85vh, 680px);
+        transform: translateY(16px) scale(0.97);
+      }
+      #help-overlay.open #help-panel {
+        transform: translateY(0) scale(1);
+      }
+      .help-handle { display: none; }
+    }
+
+    @media (max-width: 480px) {
+      .header-btn { padding: 6px 11px; font-size: 0.8rem; }
+      #restart-btn { padding: 6px 10px; }
+    }
+    @media (max-width: 360px) {
+      #restart-btn span.label { display: none; }
+    }
+
+    /* ── CATEGORY FILTER ── */
+    #category-bar {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      padding: 10px 16px;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    #category-bar::-webkit-scrollbar { display: none; }
+    .cat-btn {
+      flex-shrink: 0;
+      background: var(--cream);
+      border: 1.5px solid var(--border);
+      color: var(--muted);
+      padding: 6px 14px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 0.82rem;
+      font-weight: 500;
+      white-space: nowrap;
+      transition: all 0.18s;
+    }
+    .cat-btn:hover { border-color: var(--red); color: var(--red); }
+    .cat-btn.active {
+      background: var(--red);
+      border-color: var(--red);
+      color: #fff;
+    }
+
+    /* ── PROGRESS ── */
+    #progress-wrap {
+      padding: 12px 20px 0;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    #progress-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 6px;
+    }
+    #progress-bar-bg {
+      flex: 1;
+      height: 6px;
+      background: var(--border);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    #progress-bar-fill {
+      height: 100%;
+      background: var(--red);
+      border-radius: 3px;
+      transition: width 0.4s ease;
+      width: 0%;
+    }
+    #progress-text { font-size: 0.82rem; color: var(--muted); white-space: nowrap; min-width: 56px; text-align: right; }
+    #stats-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.82rem;
+      color: var(--muted);
+      padding-bottom: 4px;
+    }
+    #stat-knew { color: var(--success); font-weight: 600; }
+    #mode-badge {
+      font-weight: 600;
+      color: var(--red);
+    }
+    #stat-review { color: #E67E22; font-weight: 600; }
+
+    /* ── MAIN AREA ── */
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 16px 16px 40px;
+    }
+
+    .screen { display: none; }
+    .screen.active { display: block; }
+
+    /* ── LOADING ── */
+    #screen-loading {
+      text-align: center;
+      padding: 80px 20px;
+      color: var(--muted);
+    }
+    .spinner {
+      width: 36px;
+      height: 36px;
+      border: 3px solid var(--border);
+      border-top-color: var(--red);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 16px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── TRANSITION SCREEN ── */
+    #screen-transition {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    #screen-transition h2 { font-size: 1.5rem; margin-bottom: 12px; color: var(--red); }
+    #screen-transition p { color: var(--muted); margin-bottom: 24px; }
+    .primary-btn {
+      background: var(--red);
+      color: #fff;
+      border: none;
+      padding: 12px 28px;
+      border-radius: 26px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+    }
+    .primary-btn:hover { background: var(--dark-red); }
+    .primary-btn:active { transform: scale(0.97); }
+
+    /* ── FLIP CARD ── */
+    #screen-flip {}
+    .scene {
+      perspective: 1200px;
+      width: 100%;
+      min-height: 420px;
+      margin-bottom: 16px;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+    }
+    .flip-card {
+      width: 100%;
+      min-height: 420px;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: transform 0.55s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .flip-card.flipped { transform: rotateY(180deg); }
+    .card-face {
+      position: absolute;
+      width: 100%;
+      min-height: 420px;
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      background: var(--card-bg);
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+      padding: 32px 28px;
+      display: flex;
+      flex-direction: column;
+    }
+    .card-front {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 20px;
+    }
+    .card-back {
+      transform: rotateY(180deg);
+      gap: 12px;
+      justify-content: flex-start;
+    }
+
+    /* Front face */
+    .polish-word-front {
+      font-size: clamp(2rem, 8vw, 3rem);
+      font-weight: 800;
+      color: var(--text);
+      letter-spacing: -1px;
+      line-height: 1.15;
+    }
+    .flip-hint {
+      font-size: 0.82rem;
+      color: var(--muted);
+      border: 1px dashed var(--border);
+      padding: 6px 14px;
+      border-radius: 14px;
+    }
+    #audio-front-btn {
+      background: none;
+      border: 1.5px solid var(--border);
+      border-radius: 50%;
+      width: 40px; height: 40px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: all 0.18s;
+      color: var(--muted);
+    }
+    #audio-front-btn:hover { border-color: var(--red); color: var(--red); }
+
+    /* Back face */
+    .back-polish { font-size: 1.5rem; font-weight: 700; color: var(--text); }
+    .back-phonetic {
+      font-size: 0.88rem;
+      color: var(--muted);
+      font-style: italic;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    #audio-back-btn {
+      background: none;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      color: var(--muted);
+      padding: 0;
+      transition: color 0.18s;
+    }
+    #audio-back-btn:hover { color: var(--red); }
+    .back-english {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--red);
+    }
+    .back-divider { height: 1px; background: var(--border); }
+    .back-example {
+      font-size: 0.88rem;
+      color: var(--text);
+      line-height: 1.55;
+    }
+    .back-example-polish { font-weight: 600; }
+    .back-example-english { color: var(--muted); }
+    .back-connection {
+      font-size: 0.82rem;
+      color: #7B5EA7;
+      background: #F3EFF9;
+      border-left: 3px solid #C3A9E8;
+      padding: 8px 12px;
+      border-radius: 0 8px 8px 0;
+      line-height: 1.5;
+    }
+    .back-connection::before { content: '🔗 '; }
+
+    /* Flip actions */
+    #flip-actions {
+      display: none;
+      gap: 12px;
+    }
+    #flip-actions.visible { display: flex; }
+    .knew-btn, .nope-btn {
+      flex: 1;
+      padding: 13px 10px;
+      border: none;
+      border-radius: 14px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.18s;
+    }
+    .knew-btn { background: #EAFAF1; color: var(--success); border: 1.5px solid #A9DFBF; }
+    .knew-btn:hover { background: var(--success); color: #fff; }
+    .nope-btn { background: #FDEDEC; color: var(--danger); border: 1.5px solid #F5B7B1; }
+    .nope-btn:hover { background: var(--danger); color: #fff; }
+
+    /* ── MULTIPLE CHOICE SCREEN ── */
+    #screen-review {}
+    .mc-card {
+      background: var(--card-bg);
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+      padding: 28px 24px;
+      margin-bottom: 16px;
+    }
+    .mc-header { margin-bottom: 20px; }
+    .mc-label { font-size: 0.75rem; font-weight: 700; color: var(--red); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 8px; }
+    .mc-polish { font-size: clamp(1.8rem, 6vw, 2.5rem); font-weight: 800; color: var(--text); margin-bottom: 4px; }
+    .mc-phonetic { font-size: 0.85rem; color: var(--muted); font-style: italic; }
+    .mc-options { display: flex; flex-direction: column; gap: 10px; }
+    .mc-option {
+      background: var(--cream);
+      border: 1.5px solid var(--border);
+      border-radius: 12px;
+      padding: 13px 16px;
+      text-align: left;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: all 0.18s;
+      color: var(--text);
+    }
+    .mc-option:hover:not(:disabled) { border-color: var(--red); background: #FEF1F4; }
+    .mc-option.correct { background: #EAFAF1; border-color: var(--success); color: var(--success); font-weight: 600; }
+    .mc-option.wrong { background: #FDEDEC; border-color: var(--danger); color: var(--danger); }
+    .mc-option:disabled { cursor: default; }
+
+    /* ── END SCREEN ── */
+    #screen-end {
+      text-align: center;
+      padding: 20px 0;
+    }
+    .end-trophy { font-size: 4rem; margin-bottom: 12px; }
+    .end-title { font-size: 1.6rem; font-weight: 800; color: var(--text); margin-bottom: 6px; }
+    .end-subtitle { color: var(--muted); font-size: 0.9rem; margin-bottom: 28px; }
+    .end-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 28px;
+      text-align: left;
+    }
+    .stat-box {
+      background: #fff;
+      border-radius: 14px;
+      padding: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    .stat-box .label { font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 4px; }
+    .stat-box .value { font-size: 1.8rem; font-weight: 800; }
+    .stat-box.green .value { color: var(--success); }
+    .stat-box.orange .value { color: #E67E22; }
+    .stat-box.purple .value { color: #8E44AD; }
+    .stat-box.red .value { color: var(--red); }
+    #review-section { margin-bottom: 28px; }
+    #review-section h3 { font-size: 0.95rem; font-weight: 700; margin-bottom: 12px; text-align: left; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+    #review-list { display: flex; flex-direction: column; gap: 6px; text-align: left; }
+    .review-item {
+      background: #fff;
+      border-radius: 10px;
+      padding: 10px 14px;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    }
+    .review-polish { font-weight: 700; color: var(--red); min-width: 80px; }
+    .review-arrow { color: var(--border); }
+    .review-english { color: var(--text); }
+    .end-buttons { display: flex; gap: 12px; }
+    .end-buttons .primary-btn { flex: 1; }
+    .secondary-btn {
+      flex: 1;
+      background: #fff;
+      border: 1.5px solid var(--border);
+      color: var(--text);
+      padding: 12px 28px;
+      border-radius: 26px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .secondary-btn:hover { border-color: var(--red); color: var(--red); }
+
+    /* ── TOUCH ── */
+    button { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 480px) {
+      .card-face { padding: 24px 18px; min-height: 460px; }
+      .scene, .flip-card { min-height: 460px; }
+      .end-stats { grid-template-columns: 1fr 1fr; }
+      .cat-btn { padding: 8px 14px; font-size: 0.8rem; }
+      .back-connection { font-size: 0.8rem; }
+      .tagline { display: none; }
+    }
+    @media (max-width: 360px) {
+      .card-face { padding: 20px 14px; }
+      .flip-actions { flex-direction: column; gap: 8px; }
+    }
+    @supports (padding-bottom: env(safe-area-inset-bottom)) {
+      main { padding-bottom: calc(40px + env(safe-area-inset-bottom)); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-title">
+    <h1><span>🇵🇱</span>Korzeń</h1>
+    <p class="tagline">Learn Polish through its Sanskrit, Hindi, Latin &amp; Greek roots</p>
+  </div>
+  <div class="header-actions">
+    <button id="help-btn" class="header-btn" type="button" onclick="openHelp()" aria-haspopup="dialog" aria-controls="help-panel">Help</button>
+    <button id="restart-btn" class="header-btn" type="button" onclick="restartSession()">↺ <span class="label">Restart</span></button>
+  </div>
+</header>
+
+<div id="help-overlay" role="presentation" onclick="closeHelpOnBackdrop(event)">
+  <div id="help-panel" role="dialog" aria-modal="true" aria-labelledby="help-title" onclick="event.stopPropagation()">
+    <div class="help-handle" aria-hidden="true"></div>
+    <div class="help-header">
+      <h2 id="help-title">Help</h2>
+      <button class="help-close" type="button" onclick="closeHelp()" aria-label="Close">×</button>
+    </div>
+    <div class="help-body">
+      <section>
+        <h3>About Korzeń</h3>
+        <p><strong>Korzeń</strong> <em>(root in Polish)</em> is a flashcard app that links Polish words to roots you may already know from English, Hindi, Konkani, or Marathi.</p>
+        <p>Polish shares Indo-European roots with all of them. Pairs like <em>matka</em>/<em>mā</em>, <em>trzy</em>/<em>tīn</em>, and <em>serce</em>/<em>hṛdaya</em> aren’t coincidences. A word sticks deep when it connects to one you already know.</p>
+      </section>
+      <section>
+        <h3>How to study</h3>
+        <ul class="help-list">
+          <li><span class="icon">🃏</span><span>Flip each card for meaning, phonetics, an example, and the etymological bridge.</span></li>
+          <li><span class="icon">🔄</span><span>Words you miss become multiple-choice review drills.</span></li>
+          <li><span class="icon">🔊</span><span>Tap the speaker to hear Polish pronunciation.</span></li>
+          <li><span class="icon">🌐</span><span>Filter by category or study all 238 words across 13 topics.</span></li>
+        </ul>
+      </section>
+      <section>
+        <h3>Build one for your language</h3>
+        <p>Code is free and open source. Fork the repo, swap <code>data/vocabulary.json</code>, and host it.</p>
+        <a class="help-github" href="https://github.com/sagarlekar/korzen" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+      </section>
+    </div>
+  </div>
+</div>
+
+<div id="category-bar"></div>
+
+<div id="progress-wrap">
+  <div id="progress-row">
+    <div id="progress-bar-bg"><div id="progress-bar-fill"></div></div>
+    <span id="progress-text">0 / 0</span>
+  </div>
+  <div id="stats-row">
+    <span id="stat-knew">✓ 0 knew it</span>
+    <span id="mode-badge">Flashcard Mode</span>
+    <span id="stat-review">0 to review</span>
+  </div>
+</div>
+
+<main>
+
+  <!-- LOADING -->
+  <div id="screen-loading" class="screen active">
+    <div class="spinner"></div>
+    <p>Loading vocabulary…</p>
+  </div>
+
+  <!-- FLIP CARD -->
+  <div id="screen-flip" class="screen">
+    <div class="scene" id="flip-scene" onclick="handleSceneClick(event)">
+      <div class="flip-card" id="flip-card">
+        <!-- FRONT -->
+        <div class="card-face card-front">
+          <div class="polish-word-front" id="front-word"></div>
+          <button id="audio-front-btn" onclick="event.stopPropagation(); speakCurrent()" title="Pronounce">🔊</button>
+          <div class="flip-hint">tap card to reveal</div>
+        </div>
+        <!-- BACK -->
+        <div class="card-face card-back">
+          <div class="back-polish" id="back-word"></div>
+          <div class="back-phonetic">
+            <span id="back-phonetic"></span>
+            <button id="audio-back-btn" onclick="event.stopPropagation(); speakCurrent()" title="Pronounce">🔊</button>
+          </div>
+          <div class="back-english" id="back-english"></div>
+          <div class="back-divider"></div>
+          <div class="back-example">
+            <div class="back-example-polish" id="back-example-pl"></div>
+            <div class="back-example-english" id="back-example-en"></div>
+          </div>
+          <div class="back-connection" id="back-connection"></div>
+          <div id="flip-actions">
+            <button class="nope-btn" onclick="event.stopPropagation(); handleFlipResult(false)">✗ Didn't know</button>
+            <button class="knew-btn" onclick="event.stopPropagation(); handleFlipResult(true)">✓ Knew it</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TRANSITION TO REVIEW -->
+  <div id="screen-transition" class="screen">
+    <div style="font-size:3rem;margin-bottom:12px">🔄</div>
+    <h2>Review Time!</h2>
+    <p id="transition-msg">You'll now see the cards you didn't know as multiple-choice questions.</p>
+    <button class="primary-btn" onclick="startReviewPhase()">Start Review</button>
+  </div>
+
+  <!-- MULTIPLE CHOICE -->
+  <div id="screen-review" class="screen">
+    <div class="mc-card">
+      <div class="mc-header">
+        <div class="mc-label">What does this mean?</div>
+        <div class="mc-polish" id="mc-word"></div>
+        <div class="mc-phonetic" id="mc-phonetic"></div>
+      </div>
+      <div class="mc-options" id="mc-options"></div>
+    </div>
+  </div>
+
+  <!-- END SCREEN -->
+  <div id="screen-end" class="screen">
+    <div class="end-trophy" id="end-trophy">🏆</div>
+    <div class="end-title">Session Complete!</div>
+    <div class="end-subtitle" id="end-subtitle">Here's how you did:</div>
+    <div class="end-stats">
+      <div class="stat-box green">
+        <div class="label">Knew it</div>
+        <div class="value" id="end-knew">0</div>
+      </div>
+      <div class="stat-box orange">
+        <div class="label">Needed review</div>
+        <div class="value" id="end-needed">0</div>
+      </div>
+      <div class="stat-box purple">
+        <div class="label">Got right in review</div>
+        <div class="value" id="end-review-ok">0</div>
+      </div>
+      <div class="stat-box red">
+        <div class="label">Total cards</div>
+        <div class="value" id="end-total">0</div>
+      </div>
+    </div>
+    <div id="review-section" style="display:none">
+      <h3>Cards to remember</h3>
+      <div id="review-list"></div>
+    </div>
+    <div class="end-buttons">
+      <button class="secondary-btn" onclick="restartSession()">↺ Restart</button>
+      <button class="primary-btn" onclick="startSession()">▶ Play again</button>
+    </div>
+  </div>
+
+</main>
+
+<script>
+// ═══════════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════════
+let allCategories = [];
+let allCards = [];       // flat list of all cards with .categoryId
+let sessionCards = [];   // current deck, shuffled
+let currentIndex = 0;
+let reviewQueue = [];    // cards marked "didn't know"
+let reviewIndex = 0;
+let phase = 'flip';      // 'flip' | 'review' | 'end'
+let isFlipped = false;
+let selectedCategory = 'all';
+let stats = { knew: 0, didntKnow: 0, reviewCorrect: 0, reviewWrong: 0 };
+
+// ═══════════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════════
+async function init() {
+  try {
+    const res = await fetch('data/vocabulary.json');
+    const data = await res.json();
+    allCategories = data.categories;
+    allCards = allCategories.flatMap(cat =>
+      cat.cards.map(card => ({ ...card, categoryId: cat.id, categoryName: cat.name }))
+    );
+    buildCategoryBar();
+    startSession();
+  } catch (e) {
+    document.getElementById('screen-loading').innerHTML =
+      '<p style="color:red">Failed to load data/vocabulary.json. Make sure you\'re serving this folder (e.g. <code>python3 -m http.server</code>).</p>';
+  }
+}
+
+// ═══════════════════════════════════════════════
+// CATEGORY BAR
+// ═══════════════════════════════════════════════
+function buildCategoryBar() {
+  const bar = document.getElementById('category-bar');
+  bar.innerHTML = '';
+
+  const all = document.createElement('button');
+  all.className = 'cat-btn active';
+  all.textContent = '🌐 All';
+  all.dataset.id = 'all';
+  all.onclick = () => selectCategory('all');
+  bar.appendChild(all);
+
+  allCategories.forEach(cat => {
+    const btn = document.createElement('button');
+    btn.className = 'cat-btn';
+    btn.textContent = `${cat.icon} ${cat.name}`;
+    btn.dataset.id = cat.id;
+    btn.onclick = () => selectCategory(cat.id);
+    bar.appendChild(btn);
+  });
+}
+
+function selectCategory(id) {
+  selectedCategory = id;
+  document.querySelectorAll('.cat-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.id === id);
+  });
+  startSession();
+}
+
+// ═══════════════════════════════════════════════
+// SESSION
+// ═══════════════════════════════════════════════
+function startSession() {
+  const pool = selectedCategory === 'all'
+    ? [...allCards]
+    : allCards.filter(c => c.categoryId === selectedCategory);
+
+  if (pool.length === 0) return;
+
+  sessionCards = shuffle(pool);
+  currentIndex = 0;
+  reviewQueue = [];
+  reviewIndex = 0;
+  phase = 'flip';
+  stats = { knew: 0, didntKnow: 0, reviewCorrect: 0, reviewWrong: 0 };
+  isFlipped = false;
+
+  updateStats();
+  updateProgress();
+  showFlipCard();
+  showScreen('flip');
+}
+
+function restartSession() {
+  startSession();
+}
+
+// ═══════════════════════════════════════════════
+// HELP MODAL
+// ═══════════════════════════════════════════════
+function openHelp() {
+  document.getElementById('help-overlay').classList.add('open');
+  document.body.classList.add('help-open');
+}
+
+function closeHelp() {
+  document.getElementById('help-overlay').classList.remove('open');
+  document.body.classList.remove('help-open');
+}
+
+function closeHelpOnBackdrop(e) {
+  if (e.target === document.getElementById('help-overlay')) closeHelp();
+}
+
+function isHelpOpen() {
+  return document.getElementById('help-overlay').classList.contains('open');
+}
+
+// ═══════════════════════════════════════════════
+// FLIP CARD PHASE
+// ═══════════════════════════════════════════════
+function showFlipCard() {
+  if (currentIndex >= sessionCards.length) {
+    if (reviewQueue.length > 0) {
+      showTransition();
+    } else {
+      showEndScreen();
+    }
+    return;
+  }
+
+  const card = sessionCards[currentIndex];
+  isFlipped = false;
+
+  document.getElementById('front-word').textContent = card.polish;
+  document.getElementById('back-word').textContent = card.polish;
+  document.getElementById('back-phonetic').textContent = card.phonetic;
+  document.getElementById('back-english').textContent = card.english;
+  document.getElementById('back-example-pl').textContent = card.example_polish;
+  document.getElementById('back-example-en').textContent = card.example_english;
+  document.getElementById('back-connection').textContent = card.connection;
+
+  const fc = document.getElementById('flip-card');
+  fc.classList.remove('flipped');
+  document.getElementById('flip-actions').classList.remove('visible');
+
+  updateProgress();
+}
+
+function handleSceneClick(e) {
+  if (phase !== 'flip') return;
+  if (!isFlipped) flipCard();
+}
+
+function flipCard() {
+  if (isFlipped || phase !== 'flip') return;
+  isFlipped = true;
+  document.getElementById('flip-card').classList.add('flipped');
+  document.getElementById('flip-actions').classList.add('visible');
+  speakCurrent();
+}
+
+function handleFlipResult(knew) {
+  if (!isFlipped) return;
+  const card = sessionCards[currentIndex];
+  if (knew) {
+    stats.knew++;
+  } else {
+    stats.didntKnow++;
+    reviewQueue.push(card);
+  }
+  currentIndex++;
+  updateStats();
+  showFlipCard();
+}
+
+// ═══════════════════════════════════════════════
+// TRANSITION
+// ═══════════════════════════════════════════════
+function showTransition() {
+  phase = 'review-pending';
+  const n = reviewQueue.length;
+  document.getElementById('transition-msg').textContent =
+    `You marked ${n} card${n !== 1 ? 's' : ''} as "didn't know." Now let's reinforce them with multiple choice.`;
+  document.getElementById('mode-badge').textContent = 'Review Mode';
+  showScreen('transition');
+}
+
+// ═══════════════════════════════════════════════
+// REVIEW PHASE (MULTIPLE CHOICE)
+// ═══════════════════════════════════════════════
+function startReviewPhase() {
+  phase = 'review';
+  reviewIndex = 0;
+  reviewQueue = shuffle([...reviewQueue]);
+  updateProgress();
+  showScreen('review');
+  showMCCard();
+}
+
+function showMCCard() {
+  if (reviewIndex >= reviewQueue.length) {
+    showEndScreen();
+    return;
+  }
+
+  const card = reviewQueue[reviewIndex];
+  document.getElementById('mc-word').textContent = card.polish;
+  document.getElementById('mc-phonetic').textContent = card.phonetic;
+
+  const options = buildOptions(card);
+  const container = document.getElementById('mc-options');
+  container.innerHTML = '';
+  options.forEach(opt => {
+    const btn = document.createElement('button');
+    btn.className = 'mc-option';
+    btn.textContent = opt;
+    btn.addEventListener('click', () => handleMCChoice(opt, card.english, btn, card));
+    container.appendChild(btn);
+  });
+
+  updateProgress();
+  speak(card.polish);
+}
+
+function buildOptions(card) {
+  const correct = card.english;
+  const pool = allCards.filter(c => c.english !== correct);
+  const distractors = shuffle(pool).slice(0, 3).map(c => c.english);
+  return shuffle([correct, ...distractors]);
+}
+
+function handleMCChoice(chosen, correct, btn, card) {
+  document.querySelectorAll('.mc-option').forEach(b => { b.disabled = true; });
+
+  if (chosen === correct) {
+    btn.classList.add('correct');
+    stats.reviewCorrect++;
+    reviewIndex++;
+    updateStats();
+    setTimeout(() => showMCCard(), 1100);
+  } else {
+    btn.classList.add('wrong');
+    document.querySelectorAll('.mc-option').forEach(b => {
+      if (b.textContent === correct) b.classList.add('correct');
+    });
+    stats.reviewWrong++;
+    reviewIndex++;
+    updateStats();
+    setTimeout(() => showMCCard(), 1500);
+  }
+}
+
+// ═══════════════════════════════════════════════
+// END SCREEN
+// ═══════════════════════════════════════════════
+function showEndScreen() {
+  phase = 'end';
+  const total = sessionCards.length;
+  const pct = total > 0 ? Math.round((stats.knew / total) * 100) : 0;
+
+  document.getElementById('end-total').textContent = total;
+  document.getElementById('end-knew').textContent = stats.knew;
+  document.getElementById('end-needed').textContent = stats.didntKnow;
+  document.getElementById('end-review-ok').textContent = stats.reviewCorrect;
+  document.getElementById('end-subtitle').textContent =
+    `${pct}% known on first try — ${pct >= 80 ? 'excellent!' : pct >= 50 ? 'good progress!' : 'keep practicing!'}`;
+  document.getElementById('end-trophy').textContent =
+    pct >= 80 ? '🏆' : pct >= 50 ? '⭐' : '💪';
+
+  // Review list
+  const reviewSection = document.getElementById('review-section');
+  const reviewList = document.getElementById('review-list');
+  if (reviewQueue.length > 0) {
+    reviewSection.style.display = 'block';
+    reviewList.innerHTML = reviewQueue.map(card =>
+      `<div class="review-item">
+        <span class="review-polish">${card.polish}</span>
+        <span class="review-arrow">→</span>
+        <span class="review-english">${card.english}</span>
+      </div>`
+    ).join('');
+  } else {
+    reviewSection.style.display = 'none';
+  }
+
+  showScreen('end');
+}
+
+// ═══════════════════════════════════════════════
+// SPEECH
+// ═══════════════════════════════════════════════
+function speakCurrent() {
+  const card = phase === 'flip' ? sessionCards[currentIndex] : reviewQueue[reviewIndex];
+  if (card) speak(card.polish);
+}
+
+function speak(text) {
+  if (!window.speechSynthesis) return;
+  speechSynthesis.cancel();
+  const utter = new SpeechSynthesisUtterance(text);
+  utter.lang = 'pl-PL';
+  utter.rate = 0.82;
+  // Try to find a Polish voice
+  const voices = speechSynthesis.getVoices();
+  const plVoice = voices.find(v => v.lang.startsWith('pl'));
+  if (plVoice) utter.voice = plVoice;
+  speechSynthesis.speak(utter);
+}
+
+// ═══════════════════════════════════════════════
+// UI HELPERS
+// ═══════════════════════════════════════════════
+function showScreen(name) {
+  ['loading','flip','transition','review','end'].forEach(s => {
+    const el = document.getElementById(`screen-${s}`);
+    if (el) el.classList.toggle('active', s === name);
+  });
+}
+
+function updateProgress() {
+  let current, total;
+  if (phase === 'flip') {
+    current = currentIndex;
+    total = sessionCards.length;
+  } else if (phase === 'review') {
+    current = reviewIndex;
+    total = reviewQueue.length;
+  } else {
+    current = total = 1;
+  }
+  const pct = total > 0 ? (current / total) * 100 : 0;
+  document.getElementById('progress-bar-fill').style.width = pct + '%';
+  document.getElementById('progress-text').textContent = `${current} / ${total}`;
+}
+
+function updateStats() {
+  document.getElementById('stat-knew').textContent = `✓ ${stats.knew} knew it`;
+  document.getElementById('stat-review').textContent = `${reviewQueue.length} to review`;
+}
+
+// ═══════════════════════════════════════════════
+// UTILS
+// ═══════════════════════════════════════════════
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// Keyboard shortcuts
+document.addEventListener('keydown', e => {
+  if (e.code === 'Escape' && isHelpOpen()) { closeHelp(); return; }
+  if (isHelpOpen()) return;
+  if (phase === 'flip') {
+    if (e.code === 'Space' && !isFlipped) { e.preventDefault(); flipCard(); }
+    if (e.code === 'ArrowRight' && isFlipped) handleFlipResult(true);
+    if (e.code === 'ArrowLeft' && isFlipped) handleFlipResult(false);
+  }
+});
+
+// Load voices after they're ready
+speechSynthesis.onvoiceschanged = () => {};
+
+window.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>
