@@ -59,7 +59,7 @@
     header h1 { font-size: 1.25rem; font-weight: 700; letter-spacing: -0.3px; line-height: 1.2; }
     header h1 span { font-size: 1.3rem; margin-right: 7px; }
     .tagline { font-size: 0.68rem; color: rgba(255,255,255,0.62); font-style: italic; letter-spacing: 0.15px; }
-    .header-actions { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+    .header-actions { display: flex; align-items: center; gap: 20px; flex-shrink: 0; }
     .header-btn {
       background: rgba(255,255,255,0.2);
       border: 1px solid rgba(255,255,255,0.4);
@@ -74,6 +74,12 @@
     }
     .header-btn:hover { background: rgba(255,255,255,0.35); }
     #restart-btn { padding: 6px 12px; }
+    #help-btn {
+      padding: 6px 11px;
+      font-size: 1.05rem;
+      line-height: 1;
+      font-weight: 700;
+    }
 
     /* ── HELP MODAL ── */
     #help-overlay {
@@ -649,8 +655,8 @@
     <p class="tagline">Learn Polish through its Sanskrit, Hindi, Latin &amp; Greek roots</p>
   </div>
   <div class="header-actions">
-    <button id="help-btn" class="header-btn" type="button" onclick="openHelp()" aria-haspopup="dialog" aria-controls="help-panel">Help</button>
-    <button id="restart-btn" class="header-btn" type="button" onclick="restartSession()">↺ <span class="label">Restart</span></button>
+    <button id="help-btn" class="header-btn" type="button" onclick="openHelp()" aria-haspopup="dialog" aria-controls="help-panel" aria-label="About Korzeń">ℹ</button>
+    <button id="restart-btn" class="header-btn" type="button" onclick="restartSession()" aria-label="Reset">↺ <span class="label">Reset</span></button>
   </div>
 </header>
 
@@ -791,7 +797,7 @@
       <div id="review-list"></div>
     </div>
     <div class="end-buttons">
-      <button class="secondary-btn" onclick="restartSession()">↺ Restart</button>
+      <button class="secondary-btn" onclick="restartSession()">↺ Reset</button>
       <button class="primary-btn" onclick="startSession()">▶ Play again</button>
     </div>
   </div>

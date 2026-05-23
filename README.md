@@ -2,21 +2,24 @@
 
 [![Korzeń — Learn Polish through roots you already know](og.png)](https://sagarlekar.github.io/korzen/)
 
-# Korzeń 🇵🇱 
 
-**Learn Polish vocabulary by tracing words back to the languages you already know.**
-
-I know English, Hindi, Konkani, and Marathi — and built Korzeń around a simple idea: Polish shares Indo-European roots with all of them, so pairs like *matka*/*mā*, *trzy*/*tīn*, and *serce*/*hṛdaya* aren’t coincidences. A word sticks deep when it connects to one you already know.
+<p style="font-size: 1.2em; line-height: 1.65; max-width: 42em; margin: 0 auto;">
+I know English, Hindi, Konkani, and Marathi — and built Korzeń around a simple idea: Polish shares Indo-European roots with all of them, so pairs like <em>matka</em>/<em>mā</em>, <em>trzy</em>/<em>tīn</em>, and <em>serce</em>/<em>hṛdaya</em> aren’t coincidences. A word sticks deep when it connects to one you already know.
+</p>
 
 <br>
 
-[![Open Korzeń →](https://img.shields.io/badge/Open_Korzeń-→-DC143C?style=for-the-badge&labelColor=9B0B2B)](https://sagarlekar.github.io/korzen/)
+<a href="https://sagarlekar.github.io/korzen/">
+  <img src="https://img.shields.io/badge/Open_Korzeń-→-DC143C?style=for-the-badge&labelColor=9B0B2B" alt="Open Korzeń →" height="56">
+</a>
+
+
 
 </div>
 
 ## About
 
-**Korzeń** (*root* in Polish) is a static flashcard app — flip for meaning, phonetics, examples, and the etymological bridge behind every word. 
+**Korzeń** (*root* in Polish) is a simple static flashcard app — flip for meaning, phonetics, examples, and the etymological bridge behind every word. No logins, no backend, no database: progress lives in memory for the current visit and resets on refresh.
 
 ## Features
 
