@@ -128,7 +128,7 @@
     .help-header h2 {
       font-size: 1.15rem;
       font-weight: 700;
-      color: var(--text);
+      color: var(--red);
     }
     .help-close {
       background: var(--cream);
@@ -658,22 +658,25 @@
   <div id="help-panel" role="dialog" aria-modal="true" aria-labelledby="help-title" onclick="event.stopPropagation()">
     <div class="help-handle" aria-hidden="true"></div>
     <div class="help-header">
-      <h2 id="help-title">Help</h2>
+      <h2 id="help-title">About Korzeń</h2>
       <button class="help-close" type="button" onclick="closeHelp()" aria-label="Close">×</button>
     </div>
     <div class="help-body">
       <section>
-        <h3>About Korzeń</h3>
         <p><strong>Korzeń</strong> <em>(root in Polish)</em> is a flashcard app that links Polish words to roots you may already know from English, Hindi, Konkani, or Marathi.</p>
         <p>Polish shares Indo-European roots with all of them. Pairs like <em>matka</em>/<em>mā</em>, <em>trzy</em>/<em>tīn</em>, and <em>serce</em>/<em>hṛdaya</em> aren’t coincidences. A word sticks deep when it connects to one you already know.</p>
       </section>
       <section>
+        <h3>Word connections</h3>
+        <p>The etymological bridge is a memory aid. Most links are real roots; some are mnemonics, not dictionary etymology.</p>
+      </section>
+      <section>
         <h3>How to study</h3>
         <ul class="help-list">
-          <li><span class="icon">🃏</span><span>Flip each card for meaning, phonetics, an example, and the etymological bridge.</span></li>
-          <li><span class="icon">🔄</span><span>Words you miss become multiple-choice review drills.</span></li>
-          <li><span class="icon">🔊</span><span>Tap the speaker to hear Polish pronunciation.</span></li>
-          <li><span class="icon">🌐</span><span>Filter by category or study all 238 words across 13 topics.</span></li>
+          <li><span class="icon">🃏</span><span>Flip for meaning, phonetics, example, and connection.</span></li>
+          <li><span class="icon">🔄</span><span>Missed words become review drills.</span></li>
+          <li><span class="icon">🔊</span><span>Tap the speaker for pronunciation.</span></li>
+          <li><span class="icon">🌐</span><span>Filter by category or study all 238 words.</span></li>
         </ul>
       </section>
       <section>
